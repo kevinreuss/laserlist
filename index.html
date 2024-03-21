@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LaserList - Laser Machines Overview</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+  }
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-content {
+    padding: 20px;
+  }
+  .card-title {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  .card-body {
+    margin-top: 10px;
+  }
+  .filter-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .filter-section input {
+    padding: 10px;
+    width: 20%;
+    margin-top: 20px;
+  }
+  .filter-section label {
+    font-size: 18px;
+  }
+</style>
+</head>
+<body>
+<header>LaserList</header>
+<div class="filter-section">
+  <label for="priceFilter">Filter by Maximum Price:</label>
+  <input type="number" id="priceFilter" placeholder="Enter max price in €">
+  <button onclick="filterMachines()">Filter</button>
+</div>
+<div class="container" id="laserContainer">
+  <!-- Cards will be inserted here -->
+</div>
+
+
+<script>
+  const laserMachines = [
+  {
+    "manufacturer": "Glowforge",
+    "model": "Plus",
+    "image": "https://i.ebayimg.com/images/g/ufsAAOSwk4BheaV7/s-l1200.jpg",
+    "type": "engraver",
+    "power": "40W",
+    "cuttingArea": "280mm x 495mm",
+    "materials": ["Wood", "Acrylic", "Leather"],
+    "priceRange": "€2500 - €3500",
+    "website": "https://glowforge.com"
+  },
+  {
+    "manufacturer": "Trotec",
+    "model": "Speedy 300",
+    "image": "https://static.treatstock.com/static/fxd/wikiMachines/Trotec-Speedy-300/photo/trotec-speedy-300-laser-cutter.jpg?date=1595002570",
+    "type": "cutter/engraver",
+    "power": "80W",
+    "cuttingArea": "726mm x 432mm",
+    "materials": ["Acrylic", "Glass", "Textiles"],
+    "priceRange": "€10000 - €20000",
+    "website": "https://www.troteclaser.com"
+  },
+  {
+    "manufacturer": "Epilog",
+    "model": "Fusion Pro 32",
+    "image": "https://www.igepasystems.de/media/cf/74/b5/1595831441/IGEPA-Epilog-FusionPro32.jpg",
+    "type": "cutter/engraver",
+    "power": "50W - 120W",
+    "cuttingArea": "812mm x 508mm",
+    "materials": ["Wood", "Acrylic", "Rubber", "Glass"],
+    "priceRange": "€15000 - €30000",
+    "website": "https://www.epiloglaser.com"
+  },
+  {
+    "manufacturer": "Universal Laser Systems",
+    "model": "VLS6.60",
+    "image": "https://www.engraversnetwork.com/wp-content/uploads/vls460-2.jpg",
+    "type": "cutter/engraver",
+    "power": "60W",
+    "cuttingArea": "813mm x 457mm",
+    "materials": ["Paper", "Plastic", "Fabric", "Leather"],
+    "priceRange": "€20000 - €30000",
+    "website": "https://www.ulsinc.com"
+  },
+  {
+    "manufacturer": "Mr Beam",
+    "model": "Mr Beam II dreamcut S",
+    "image": "https://www.mr-beam.org/cdn/shop/products/mr-beam-zwei-dreamcut-s_4c93db52-5585-427c-9f7c-45f8c229455a-removebg.png?v=1633596781&width=1445",
+    "type": "engraver",
+    "power": "5W",
+    "cuttingArea": "500mm x 390mm",
+    "materials": ["Wood", "Acrylic", "Felt", "Fabric"],
+    "priceRange": "€3000 - €4000",
+    "website": "https://www.mr-beam.org"
+  },
+  {
+    "manufacturer": "Darkly Labs",
+    "model": "Emblaser 2",
+    "image": "https://m.media-amazon.com/images/I/71V2L1+wMIL._AC_UF1000,1000_QL80_.jpg",
+    "type": "cutter/engraver",
+    "power": "5W",
+    "cuttingArea": "500mm x 300mm",
+    "materials": ["Wood", "Leather", "Acrylic", "Fabric"],
+    "priceRange": "€2000 - €3000",
+    "website": "https://darklylabs.com"
+  }
+  ];
+
+  function generateCard(machine) {
+    return `
+      <div class="card">
+        <img src="${machine.image}" alt="${machine.model}">
+        <div class="card-content">
+          <h2 class="card-title">${machine.manufacturer} - ${machine.model}</h2>
+          <div class="card-body">
+            <p>Type: ${machine.type}</p>
+            <p>Power: ${machine.power}</p>
+            <p>Cutting Area: ${machine.cuttingArea}</p>
+            <p>Materials: ${machine.materials.join(', ')}</p>
+            <p>Price Range: ${machine.priceRange}</p>
+            <p><a href="${machine.website}" target="_blank">Product Page</a></p>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  function displayMachines(machines) {
+    const container = document.getElementById('laserContainer');
+    container.innerHTML = ''; // Clear existing content
+    machines.forEach(machine => {
+      container.innerHTML += generateCard(machine);
+    });
+  }
+
+  function filterMachines() {
+    const maxPrice = document.getElementById('priceFilter').value;
+    const filteredMachines = laserMachines.filter(machine => {
+      const priceRange = machine.priceRange.replace('€', '').split(' - ').map(Number);
+      return priceRange[1] <= maxPrice;
+    });
+    displayMachines(filteredMachines.length > 0 ? filteredMachines : laserMachines);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    displayMachines(laserMachines);
+  });
+</script>
+
+</body>
+</html
