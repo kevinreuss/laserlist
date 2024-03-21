@@ -18,6 +18,37 @@
     font-size: 24px;
     font-weight: bold;
   }
+
+  .feedback-button {
+  position: absolute;
+  right: 0;
+  background-color: #1DA1F2; /* Twitter Blau */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.feedback-button:hover {
+  background-color: #1991D2; /* Dunkleres Blau für Hover Effekt */
+}
+
+ .filter-button {
+  background-color: #1DA1F2; /* Twitter Blau */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.filter-button:hover {
+  background-color: #1991D2; /* Dunkleres Blau für Hover Effekt */
+}
+
+
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -63,16 +94,31 @@
 </style>
 </head>
 <body>
-<header>LaserList</header>
+  
+    <header>
+  <div class="header-content">
+    <span>LaserList</span>
+    <a href="https://twitter.com/kevreuss" target="_blank" class="feedback-button">Feedback?</a>
+  </div>
+</header>
 
 <div class="filter-section">
   <label for="priceFilter">Filter by Maximum Price:</label>
   <input type="number" id="priceFilter" placeholder="Enter max price in €">
-  <button onclick="filterMachines()">Filter</button>
+  <button class="filter-button" onclick="filterMachines()">Filter</button>
 </div>
 <div class="container" id="laserContainer">
   <!-- Cards will be inserted here -->
 </div>
+
+
+<button id="toggleLegalText">Legal Information</button>
+<div id="legalText" style="display: none;">
+  <p>
+  THE INFORMATION CONTAINED IN THIS WEBSITE IS FOR GENERAL INFORMATION PURPOSES ONLY. THE INFORMATION IS PROVIDED BY LASER LIST AND WHILE WE ENDEAVOUR TO KEEP THE INFORMATION UP TO DATE AND CORRECT, WE MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, ABOUT THE COMPLETENESS, ACCURACY, RELIABILITY, SUITABILITY OR AVAILABILITY WITH RESPECT TO THE WEBSITE OR THE INFORMATION, PRODUCTS, SERVICES, OR RELATED GRAPHICS CONTAINED ON THE WEBSITE FOR ANY PURPOSE. ANY RELIANCE YOU PLACE ON SUCH INFORMATION IS THEREFORE STRICTLY AT YOUR OWN RISK. IN NO EVENT WILL WE BE LIABLE FOR ANY LOSS OR DAMAGE INCLUDING WITHOUT LIMITATION, INDIRECT OR CONSEQUENTIAL LOSS OR DAMAGE, OR ANY LOSS OR DAMAGE WHATSOEVER ARISING FROM LOSS OF DATA OR PROFITS ARISING OUT OF, OR IN CONNECTION WITH, THE USE OF THIS WEBSITE. THROUGH THIS WEBSITE YOU ARE ABLE TO LINK TO OTHER WEBSITES WHICH ARE NOT UNDER THE CONTROL OF LASER LIST. WE HAVE NO CONTROL OVER THE NATURE, CONTENT AND AVAILABILITY OF THOSE SITES. THE INCLUSION OF ANY LINKS DOES NOT NECESSARILY IMPLY A RECOMMENDATION OR ENDORSE THE VIEWS EXPRESSED WITHIN THEM. EVERY EFFORT IS MADE TO KEEP THE WEBSITE UP AND RUNNING SMOOTHLY. HOWEVER, LASER LIST TAKES NO RESPONSIBILITY FOR, AND WILL NOT BE LIABLE FOR, THE WEBSITE BEING TEMPORARILY UNAVAILABLE DUE TO TECHNICAL ISSUES BEYOND OUR CONTROL.
+</p>
+</div>
+
 
 
 <script>
@@ -288,6 +334,15 @@
 },
   ];
 
+  document.getElementById('toggleLegalText').addEventListener('click', function() {
+    var legalText = document.getElementById('legalText');
+    if (legalText.style.display === 'none') {
+      legalText.style.display = 'block';
+    } else {
+      legalText.style.display = 'none';
+    }
+  });
+
   function generateCard(machine) {
     return `
       <div class="card">
@@ -333,7 +388,7 @@ function displayMachines(machines) {
       const priceRange = machine.priceRange.replaceAll('€', '').split(' - ').map(Number);
       return priceRange[1] <= maxPrice;
     });
-    displayMachines(filteredMachines.length > 0 ? filteredMachines : laserMachines);
+    displayMachines(filteredMachines);
   }
 
   document.addEventListener('DOMContentLoaded', () => {
