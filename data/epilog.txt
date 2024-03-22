@@ -1,0 +1,1493 @@
+<!DOCTYPE html><html lang="de-DE">
+    <body class="post-template-default single single-post postid-28 single-format-standard  smartling-de">
+<noscript><iframe  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <div class="uk-hidden-visually uk-notification uk-notification-top-left uk-width-auto">
+            <div class="uk-notification-message">
+                <a >Zum Hauptinhalt springen</a>
+            </div>
+        </div>
+        <div class="tm-page">
+<header class="tm-header-mobile uk-hidden@m">
+        <div uk-sticky="" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
+        <div class="uk-navbar-container">
+            <div class="uk-container uk-container-expand">
+                <nav class="uk-navbar" uk-navbar="{&quot;container&quot;:&quot;.tm-header-mobile &gt; [uk-sticky]&quot;}">
+                                        <div class="uk-navbar-left">
+                                                    <a  aria-label="Back to home" class="uk-logo uk-navbar-item">
+    <picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/46/epilog-logo_mobile-46e6c3ad.webp 100w" sizes="(min-width: 100px) 100px">
+<img alt="Lasergravur- und Schneidemaschines von Epilog Laser – Logo" loading="eager"  width="100" height="22" />
+</source></picture><picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/b6/epilog-logo_mobile-white-b611d402.webp 100w" sizes="(min-width: 100px) 100px">
+<img class="uk-logo-inverse" alt="Lasergravur- und Schneidemaschines von Epilog Laser – Logo" loading="eager"  width="100" height="22" />
+</source></picture></a>                        
+                    </div>
+                                        <div class="uk-navbar-right">
+                        <a uk-toggle=""  class="uk-navbar-toggle uk-navbar-toggle-animate">
+        <div uk-navbar-toggle-icon=""></div>
+    </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        </div>
+        <div id="tm-dialog-mobile" class="uk-dropbar uk-dropbar-right" uk-drop="{&quot;clsDrop&quot;:&quot;uk-dropbar&quot;,&quot;flip&quot;:&quot;false&quot;,&quot;container&quot;:&quot;.tm-header-mobile&quot;,&quot;target-y&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;,&quot;mode&quot;:&quot;click&quot;,&quot;target-x&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;,&quot;stretch&quot;:true,&quot;pos&quot;:&quot;bottom-right&quot;,&quot;bgScroll&quot;:&quot;false&quot;,&quot;animation&quot;:&quot;slide-right&quot;,&quot;animateOut&quot;:true,&quot;duration&quot;:300,&quot;toggle&quot;:&quot;false&quot;}">
+        <div class="tm-height-min-1-1 uk-flex uk-flex-column">
+                        <div class="uk-margin-auto-bottom">
+<div class="uk-grid uk-child-width-1-1" uk-grid="">    <div>
+<div class="uk-panel widget widget_search" id="search-2">
+    <form id="search-1" action="https://www.epiloglaser.com/de" method="get" role="search" class="uk-search uk-search-default uk-width-1-1"><span uk-search-icon=""></span><input name="s" placeholder="Suche" required="" aria-label="Search" type="search" class="uk-search-input sl-search-input" /></form>
+</div>
+</div>    <div>
+<div class="uk-panel widget widget_builderwidget" id="builderwidget-9">
+    <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+<div class="uk-width-1-1">
+                    <div><div class="uk-flex uk-flex-between">
+    <a id="swap_mobile_language-switcher" class="SL_swap uk-flex uk-flex-middle uk-margin-left"  uk-toggle=""><i class="flag de_flag"></i><div class="uk-margin-small-left">DE</div></a>
+	<div class="SL_swap uk-flex uk-flex-right uk-margin-left uk-margin-small-right uk-width-expand" id="swap_mobile_click-to-call"><a  id="header-mobile-contact-1-link" class="uk-button uk-button-primary">Zum Anrufen klicken</a></div>
+</div></div>
+</div></div>
+</div>
+</div>    <div>
+<div class="uk-panel widget widget_builderwidget" id="builderwidget-13">
+    <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+<div class="uk-width-1-1">
+                    <div><div>						
+    <ul class="uk-nav uk-nav-default" uk-switcher="connect: #mobileMenu-nav; animation: uk-animation-slide-right, uk-animation-slide-right">
+        <li><a class="uk-hidden" ></a></li>
+        <li><a class="ep-mobile-submenu" >Lasermaschinen</a></li>
+        <li><a class="ep-mobile-submenu" >Funktionsweise</a></li>
+        <li><a class="ep-mobile-submenu" >Firma</a></li>
+        <li><a class="ep-mobile-submenu" >Kontakt</a></li>
+        <li><a class="ep-mobile-submenu" >Support + Service</a></li>
+        <li><a class="ep-mobile-submenu" >Ressourcen</a></li>				
+    </ul>
+</div>
+<div id="subnavWrapper">
+    <ul id="mobileMenu-nav" class="uk-switcher">
+        <li></li>
+        <li><div id="laserMachines-subnav" class="subnavBlock">										
+            <ul class="uk-nav uk-nav-default">
+                <li><a class="ep-mobile-back"  uk-switcher-item="0"><i class="fas fa-chevron-left"></i> Zurück</a></li>
+                <li><a >Produktlinie</a></li>
+                <li><a >Fusion Maker Laser</a></li>
+                <li><a >Fusion Edge Laser</a></li>
+                <li><a >Fusion Pro-Laser</a></li>
+				<li><a >Fusion Galvo Laser</a></li>
+                <li><a >Legacy-Systeme</a></li>								
+            </ul></div>						
+        </li>
+        <li><div id="howItWorks-subnav" class="subnavBlock">										
+            <ul class="uk-nav uk-nav-default">
+                <li><a class="ep-mobile-back"  uk-switcher-item="0"><i class="fas fa-chevron-left"></i> Zurück</a></li>
+                <li>
+                    <a class="ep-mobile-submenu" uk-toggle="target: #ep-menu-laser-basics; animation: uk-animation-slide-right, uk-animation-slide-right" >Grundlegendes zu Lasern</a>									
+                    <div id="ep-menu-laser-basics" class="subnavBlock subsubnavWrapper" hidden="">
+                        <ul>
+                            <li><a class="ep-mobile-back" uk-toggle="target: #ep-menu-laser-basics; animation: uk-animation-slide-right, uk-animation-slide-right" ><i class="fas fa-chevron-left"></i> Zurück</a></li>
+                            <li><a >Lasergravur</a></li>
+                            <li><a >Laserschneiden</a></li>
+                            <li><a >Laserkennzeichnung von Metall</a></li>						
+                        </ul>
+                    </div>
+                </li>							
+                <li>
+                    <a class="ep-mobile-submenu" uk-toggle="target: #ep-menu-applications; animation: uk-animation-slide-right, uk-animation-slide-right" >Anwendungen</a>								
+                    <div id="ep-menu-applications" class="subnavBlock subsubnavWrapper" hidden="">
+                        <ul>
+                            <li><a class="ep-mobile-back" uk-toggle="target: #ep-menu-applications; animation: uk-animation-slide-right, uk-animation-slide-right" ><i class="fas fa-chevron-left"></i> Zurück</a></li>
+                            <li><a >Anwendungen</a></li>
+							<li><a >Acryl</a></li>
+                            <li><a >Trophäen und Pokale</a></li>
+							<li><a >Barcodes</a></li>
+							<li><a >CO2-Metall kennzeichnungs spray</a></li>
+							<li><a >Stoff und Textilien</a></li>
+                            <li><a >Glas</a></li>
+							<li><a >Leder</a></li>
+							<li><a >Holz</a></li>
+                            <li><a >Und vieles mehr ...</a></li>
+                        </ul>
+                    </div>	
+                </li>
+                <li><a >Materialverträglichkeit</a></li>
+                <li><a >Materialtests</a></li>					
+                <li>
+                    <a class="ep-mobile-submenu" uk-toggle="target: #ep-menu-faq; animation: uk-animation-slide-right, uk-animation-slide-right" >FAQs</a>									
+                    <div id="ep-menu-faq" class="subnavBlock subsubnavWrapper" hidden="">
+                        <ul>
+                            <li><a class="ep-mobile-back" uk-toggle="target: #ep-menu-faq; animation: uk-animation-slide-right, uk-animation-slide-right" ><i class="fas fa-chevron-left"></i> Zurück</a></li>
+                            <li><a >Alle häufig gestellten Fragen</a></li>
+                            <li><a >Was benötige ich?</a></li>	
+                        </ul>
+                    </div>
+                </li>	
+                <li><a >Videogalerie - Anwendungen</a></li>
+                <li><a >Anwendungsgalerie</a></li>	
+                <li><a >Starten Sie Ihr Lasergeschäft</a></li>	
+                <li><a >Anwenderberichte von Kunden</a></li>
+                <li><a >Kundenmeinungen</a></li>
+            </ul></div>
+        </li>
+        <li><div id="swap_mobile-menu_company-subnav" class="sl_swap subnavBlock"><ul class="uk-nav uk-nav-default">
+	<li><a class="ep-mobile-back"  uk-switcher-item="0"><i class="fas fa-chevron-left"></i> Zurück</a></li>
+	<li><a >Über Epilog Laser</a></li>
+	<li><a >Hauptfirmensitz</a></li>
+	<li><a >News</a></li>
+	<li><a >Blog</a></li>                                                                       
+</ul></div>
+        </li>
+        <li><div id="swap_mobile-menu_contact-subnav" class="sl_swap subnavBlock"><ul class="uk-nav uk-nav-default">
+	<li><a class="ep-mobile-back"  uk-switcher-item="0"><i class="fas fa-chevron-left"></i> Zurück</a></li>
+	<li class="notranslate"><a >cameo Laser</a></li>
+	<li><a >Europäischer Firmensitz</a></li>
+    <li><a >Upcoming Events</a></li>	
+	<li><a >Preise/Muster anfragen</a></li>
+	<li><a >Demo vereinbaren</a></li>
+	<li><a >Weltweite Vertriebshändler</a></li>	
+</ul></div>
+        </li>
+        <li><div id="support-subnav" class="subnavBlock">										
+            <ul class="uk-nav uk-nav-default">
+                <li><a class="ep-mobile-back"  uk-switcher-item="0"><i class="fas fa-chevron-left"></i> Zurück</a></li>
+				<li><a  target="_blank" rel="noreferrer">Knowledge Base</a></li>
+                <li><a >Technischer Support</a></li>                
+                <li><a class="ep-mobile-submenu" uk-toggle="target: #ep-menu-laser-manuals; animation: uk-animation-slide-right, uk-animation-slide-right" >Laser-Handbücher</a>									
+                    <div id="ep-menu-laser-manuals" class="subnavBlock subsubnavWrapper" hidden="">
+                        <ul>
+                            <li><a class="ep-mobile-back" uk-toggle="target: #ep-menu-laser-manuals; animation: uk-animation-slide-right, uk-animation-slide-right" ><i class="fas fa-chevron-left"></i> Zurück</a></li>
+                            <li><a >Laser-Handbücher</a></li>
+                            <li><a  target="_blank" rel="noreferrer">Fusion Edge/Maker/Pro  <i class="fa fa-file-pdf-o"></i></a></li>
+                            <li><a  target="_blank" rel="noreferrer">FUSION GALVO G100  <i class="fa fa-file-pdf-o"></i></a></li>
+                            <li><a  target="_blank" rel="noreferrer">Zing-Laser  <i class="fa fa-file-pdf-o"></i></a></li>
+                            <li><a  target="_blank" rel="noreferrer">Mini-/Helix-Laser  <i class="fa fa-file-pdf-o"></i></a></li>											                            
+                            <li><a  target="_blank" rel="noreferrer">FiberMark S2 Laser  <i class="fa fa-file-pdf-o"></i></a></li>
+                            <li><a  target="_blank" rel="noreferrer">Fusion M2-Laser  <i class="fa fa-file-pdf-o"></i></a></li>				
+                            <li><a  target="_blank" rel="noreferrer">Fusion-Laser  <i class="fa fa-file-pdf-o"></i></a></li>											
+                            <li><a >Und vieles mehr ...</a></li>
+                        </ul>
+                    </div>												
+                </li>
+                <li>
+                    <a class="ep-mobile-submenu" uk-toggle="target: #ep-menu-downloads; animation: uk-animation-slide-right, uk-animation-slide-right" >Treiber- und Firmwaredownloads</a>					
+                    <div id="ep-menu-downloads" class="subnavBlock subsubnavWrapper" hidden="">
+                        <ul>
+                            <li><a class="ep-mobile-back" uk-toggle="target: #ep-menu-downloads; animation: uk-animation-slide-right, uk-animation-slide-right" ><i class="fas fa-chevron-left"></i> Zurück</a></li>
+                            <li><a >Treiber- und Firmwaredownloads</a></li>
+                            <li><a >Fusion Edge/Maker/Pro/Galvo Laser</a></li>		
+                            <li><a >Zing-Laser</a></li>
+                            <li><a >Mini-/Helix-Laser</a></li>							
+                            <li><a >FiberMark S2 Laser</a></li>
+                            <li><a >Laser Fusion/Fusion M2</a></li>		
+                            <li><a >Und vieles mehr ...</a></li>
+                        </ul>
+                    </div>
+                </li>     
+            </ul></div>
+        </li>
+        <li><div id="resources-subnav" class="subnavBlock">										
+            <ul class="uk-nav uk-nav-default">
+                <li><a class="ep-mobile-back"  uk-switcher-item="0"><i class="fas fa-chevron-left"></i> Zurück</a></li>
+                <li><a >Sample Club</a></li>
+                <li><a >E-Broschüren</a></li>					
+                <li>
+                    <a class="ep-mobile-submenu" uk-toggle="target: #ep-menu-industry-links; animation: uk-animation-slide-right, uk-animation-slide-right" >Branchenlinks</a>									
+                    <div id="ep-menu-industry-links" class="subnavBlock subsubnavWrapper" hidden="">
+                        <ul>
+                            <li><a class="ep-mobile-back" uk-toggle="target: #ep-menu-industry-links; animation: uk-animation-slide-right, uk-animation-slide-right" ><i class="fas fa-chevron-left"></i> Zurück</a></li>
+                            <li><a >Rohstoffanbieter</a></li>
+                            <li><a >Ausrüstung und Software</a></li>
+                            <li><a >Publikationen und Foren </a></li>
+                            <li><a >Individuelle Laserservices</a></li>
+                            <li><a >CorelDRAW-Hilfe</a></li>
+                        </ul>
+                    </div>	
+                </li>
+                <li><a  target="_blank" rel="noreferrer">Laser registrieren</a></li>		
+                <li><a >Werberessourcen</a></li>						
+            </ul></div>
+        </li>							
+    </ul>
+</div></div>
+</div></div>
+</div>
+</div></div>            </div>
+                        <div class="uk-grid-margin">
+<div class="uk-panel">
+    <ul class="uk-flex-inline uk-flex-middle uk-flex-nowrap uk-grid-small" uk-grid="">                    <li><a  class="uk-preserve-width uk-icon-button" rel="noreferrer"><span uk-icon="icon: youtube;"></span></a></li>
+                    <li><a  class="uk-preserve-width uk-icon-button" rel="noreferrer"><span uk-icon="icon: facebook;"></span></a></li>
+                    <li><a  class="uk-preserve-width uk-icon-button" rel="noreferrer"><span uk-icon="icon: instagram;"></span></a></li>
+            </ul>
+</div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="ep-mobile-breadcrumb uk-hidden@m">		
+	<div class="">				
+		<div id="mobile-breadcrumbs" class="uk-width-1-1 uk-text-center"><span><span><a >Startseite</a></span>  /  <span><a >Lasermaschinen</a></span>  /  <span class="breadcrumb_last" aria-current="page">Produktlinie</span></span></div>
+		<div class="uk-width-1-1" uk-sticky="offset: 40px;">
+			<a  class="uk-width-1-1 uk-button free-brochure">
+				<div class="">Fordern Kostenlose Muster und Informationen</div>
+			</a>
+		</div>				
+	</div>	
+</div>	
+<div class="tm-header uk-visible@m" uk-header="">
+<div class="tm-toolbar tm-toolbar-default js-toolbar-transparent uk-visible@m">
+    <div class="uk-container uk-flex uk-flex-middle">
+                <div class="uk-margin-auto-left">
+            <div class="uk-grid-medium uk-child-width-auto uk-flex-middle" uk-grid="margin: uk-margin-small-top">
+                <div>
+<div class="uk-panel widget widget_custom_html" id="custom_html-4">
+    <div class="textwidget custom-html-widget"><div class="uk-flex uk-flex-right uk-flex-middle uk-margin-remove">	<div class="SL_swap" id="swap_header-contact-1"><a >Deutschland:</a> <span>+41 (0) 71 243 20 40</span></div>	<div class="uk-margin-small-left uk-margin-small-right">|</div>	<div class="SL_swap" id="swap_header-contact-2"><a >Schweiz:</a> <span>+41 (0) 71 243 20 40</span></div>	<div class="SL_swap" id="swap_header-made-in-usa"></div></div></div>
+</div>
+</div>				
+				<div>
+	<a id="swap_language-switcher" class="SL_swap uk-flex uk-flex-right"  uk-toggle=""><i class="flag de_flag"></i><div class="uk-margin-small-left">DE</div></a>
+	<div id="language-switcher" class="uk-flex-top" uk-modal="">
+		<div class="uk-modal-dialog uk-margin-auto-vertical">			
+			<div class="uk-grid-collapse" uk-grid="">
+				<div class="uk-width-1-1 uk-width-auto@m">
+					<ul class="uk-tab-left region-switcher" uk-tab="connect: #component-tab-left; animation: uk-animation-fade">
+						<li><a >Nordamerika</a></li>
+						<li><a >Lateinamerika</a></li>
+						<li><a >Europa</a></li>
+						<li><a >Asien</a></li>						
+					</ul>
+				</div>
+<div class="uk-width-1-1 uk-width-expand@m uk-padding-remove uk-height-large uk-position-relative">
+	<button class="uk-modal-close-default" type="button" uk-close=""></button>
+	<ul id="component-tab-left" class="uk-switcher sl_norewrite">
+		<li><ul id="LS-North-America" class="uk-padding uk-list ls-region">							
+			<li><a hreflang="en-CA" ><i class="flag en-ca_flag"></i>Canada</a></li>
+			<li><a hreflang="en"  class="sl_norewrite"><i class="flag en-us_flag"></i>English (US)</a></li>			
+		</ul></li>
+		<li><ul id="LS-Latin-America" class="uk-padding uk-list ls-region">
+			<li><a hreflang="es-CO" ><i class="flag es-co_flag"></i>Colombia</a></li>
+			<li><a hreflang="en-MX" ><i class="flag es-mx_flag"></i>Méjico</a></li>
+		</ul></li>
+		<li><ul id="LS-Europe" class="uk-padding uk-list ls-region">
+			<li><a hreflang="fr-BE" ><i class="flag fr-be_flag"></i>Belgien (FR)</a></li>
+			<li><a hreflang="da-DK" ><i class="flag dk_flag"></i>Dansk</a></li>
+			<li><a hreflang="de-DE" ><i class="flag de_flag"></i>Deutsche (DE)</a></li>
+			<li><a hreflang="es-ES" ><i class="flag es_flag"></i>España</a></li>
+			<li><a hreflang="fr-FR" ><i class="flag fr_flag"></i>Français (FR)</a></li>
+			<li><a hreflang="it-IT" ><i class="flag it_flag"></i>Italiano</a></li>			
+			<li><a hreflang="fr-LU" ><i class="flag fr-lu_flag"></i>Luxembourg</a></li>	
+			<li><a hreflang="nl-NL" ><i class="flag nl_flag"></i>Nederlands (NL)</a></li>	
+			<li><a hreflang="nb-NO" ><i class="flag no_flag"></i>Norsk</a></li>
+			<li><a hreflang="de-AT" ><i class="flag de-at_flag"></i>Österreich</a></li>	
+			<li><a hreflang="pl-PL" ><i class="flag pl_flag"></i>Polskie</a></li>
+			<li><a hreflang="pt-PT" ><i class="flag pt_flag"></i>Português</a></li>
+			<li><a hreflang="ro-RO" ><i class="flag ro_flag"></i>Română</a></li>
+			<li><a hreflang="de-CH" ><i class="flag de-ch_flag"></i>Schweiz</a></li>
+			<li><a hreflang="fi-FI" ><i class="flag fi_flag"></i>Suomi</a></li>
+			<li><a hreflang="sv-SE" ><i class="flag se_flag"></i>Svenska</a></li>
+			<li><a hreflang="en-GB" ><i class="flag en-uk_flag"></i>United Kingdom</a></li>
+		</ul></li>
+		<li><ul id="LS-Asia" class="uk-padding uk-list ls-region">
+			<li><a hreflang="en-AU" ><i class="flag en-au_flag"></i>Australia</a></li>
+			<li><a hreflang="id-ID" ><i class="flag id_flag"></i>bahasa Indonesia</a></li>
+			<li><a hreflang="zh-CN" ><i class="flag cn_flag"></i>中文</a></li>		
+			<li><a hreflang="ja-JP" ><i class="flag jp_flag"></i>日本語</a></li>		
+		</ul>
+		</li>						
+	</ul>
+</div>
+			</div>
+		</div>			
+	</div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div uk-sticky="" media="@m" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
+        <div class="uk-navbar-container">
+            <div class="uk-container">
+                <nav class="uk-navbar" uk-navbar="{&quot;align&quot;:&quot;left&quot;,&quot;boundary&quot;:&quot;.tm-header .uk-navbar-container&quot;,&quot;container&quot;:&quot;.tm-header &gt; [uk-sticky]&quot;}">
+                                        <div class="uk-navbar-left">
+<a  aria-label="Back to home" class="uk-navbar-item uk-logo">
+    <picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/4c/epilog-logo-4ce991db.webp 215w" sizes="(min-width: 215px) 215px">
+<img alt="Lasergravur- und Schneidemaschines von Epilog Laser – Logo" loading="eager"  width="215" height="46" />
+</source></picture><picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/b3/epilog-logo_white-b3073f7d.webp 215w, /assets/themes/yootheme/cache/ce/epilog-logo_white-ce75f4ad.webp 283w" sizes="(min-width: 215px) 215px">
+<img class="uk-logo-inverse" alt="Lasergravur- und Schneidemaschines von Epilog Laser – Logo" loading="eager"  width="215" height="46" />
+</source></picture></a>
+                                                            <a  aria-label="Back to home" class="uk-logo uk-navbar-item">
+    <picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/4c/epilog-logo-4ce991db.webp 215w" sizes="(min-width: 215px) 215px">
+<img alt="Lasergravur- und Schneidemaschines von Epilog Laser – Logo" loading="eager"  width="215" height="46" />
+</source></picture><picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/b3/epilog-logo_white-b3073f7d.webp 215w, /assets/themes/yootheme/cache/ce/epilog-logo_white-ce75f4ad.webp 283w" sizes="(min-width: 215px) 215px">
+<img class="uk-logo-inverse" alt="Lasergravur- und Schneidemaschines von Epilog Laser – Logo" loading="eager"  width="215" height="46" />
+</source></picture></a>                                                    
+                    </div>
+                                        <div class="uk-navbar-right">
+<ul class="uk-navbar-nav">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children uk-active uk-parent"><a > Lasermaschinen</a>
+	<div class="uk-navbar-dropdown" id="49"><div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid=""><div><ul class="uk-nav uk-navbar-dropdown-nav">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28 current_page_item uk-active"><a > Produktlinie</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Fusion Maker Laser</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Fusion Edge Laser</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Fusion Pro-Laser</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Fusion Galvo Laser</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a > Legacy-Systeme</a></li>
+		</ul></div></div></div></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > Funktionsweise</a>
+	<div class="uk-navbar-dropdown" id="50"><div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid=""><div><ul class="uk-nav uk-navbar-dropdown-nav">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > Grundlegendes zu Lasern</a>
+		<ul class="uk-nav-sub">
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Lasergravur</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Laserschneidmaschinen</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Laserkennzeichnung von Metall</a></li></ul></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > Anwendungen</a>
+		<ul class="uk-nav-sub">
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Acryl</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Trophäen und Pokale</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Barcodes</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > CO2-Metall kennzeichnungs spray</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Stoff und Textilien</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Glas</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Leder</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Holz</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom"><a > Und vieles mehr ...</a></li></ul></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Materialverträglichkeit</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Materialtests</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > FAQs</a>
+		<ul class="uk-nav-sub">
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a > Alle häufig gestellten Fragen</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Was benötige ich?</a></li></ul></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a > Videogalerie - Anwendungen</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a > Anwendungsgalerie</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Starten Sie Ihr Lasergeschäft</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a > Anwenderberichte von Kunden</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Kundenmeinungen</a></li></ul></div></div></div></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > Firma</a>
+	<div class="uk-navbar-dropdown SL_swap" id="swap_menu_company"><div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid="">
+	<div>
+		<ul class="uk-nav uk-navbar-dropdown-nav">
+			<li class="menu-item menu-item-type-post_type menu-item-object-post"><a >Über Epilog Laser</a></li>
+			<li><a >Hauptfirmensitz</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a >News</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a >Blog</a></li>
+		</ul>
+	</div>
+</div></div></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > Kontakt</a>
+	<div class="uk-navbar-dropdown SL_swap" id="swap_menu_contact"><div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid="">
+	<div>
+		<ul class="uk-nav uk-navbar-dropdown-nav">		
+		<li class="notranslate"><a >cameo Laser</a></li>
+		<li><a >Europäischer Firmensitz</a></li>
+    	<li><a >Upcoming Events</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a >Broschüre/Preisliste anfordern</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a >Demo vereinbaren</a></li>				
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a >Weltweite Vertriebshändler</a></li>
+		</ul>
+	</div>
+</div></div></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > Support + Service</a>
+	<div class="uk-navbar-dropdown" id="55"><div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid=""><div><ul class="uk-nav uk-navbar-dropdown-nav">
+		<li class="menu-item menu-item-type-post_type menu-item-object-post"><a > Technischer Support</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom"><a > Knowledge Base</a></li>
+		<li class="ep-menu-right-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > Laser-Handbücher</a>
+		<ul class="uk-nav-sub">
+			<li class="menu-item menu-item-type-custom menu-item-object-custom"><a > <i class="far fa-file-pdf uk-margin-small-right"></i>Fusion Maker/Edge/Pro</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom"><a > <i class="far fa-file-pdf uk-margin-small-right"></i>FUSION GALVO G100</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom"><a > <i class="far fa-file-pdf uk-margin-small-right"></i>Zing-Laser</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom"><a > <i class="far fa-file-pdf uk-margin-small-right"></i>Mini-/Helix-Laser</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom"><a > <i class="far fa-file-pdf uk-margin-small-right"></i>FiberMark S2 Laser</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom"><a > <i class="far fa-file-pdf uk-margin-small-right"></i>Fusion M2-Laser</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom"><a > <i class="far fa-file-pdf uk-margin-small-right"></i>Fusion-Laser</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Und vieles mehr ...</a></li></ul></li>
+		<li class="ep-menu-right-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > Treiber- und Firmwaredownloads</a>
+		<ul class="uk-nav-sub">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Fusion Maker/Edge/Pro/Galvo Laser</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Zing-Laser</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Mini-/Helix-Laser</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > FiberMark S2 Laser</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Laser Fusion/Fusion M2</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a > Und vieles mehr ...</a></li></ul></li></ul></div></div></div></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > Ressourcen</a>
+	<div class="uk-navbar-dropdown" id="56"><div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid=""><div><ul class="uk-nav uk-navbar-dropdown-nav">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a > Sample Club</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > E-Broschüren</a></li>
+		<li class="ep-menu-right-1 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children uk-parent"><a > Branchenlinks</a>
+		<ul class="uk-nav-sub">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Rohstoffanbieter</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Ausrüstung und Software</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Publikationen und Foren</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Individuelle Laserservices</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > CorelDRAW-Hilfe</a></li></ul></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom"><a > Laser registrieren</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page"><a > Werberessourcen</a></li>
+		</ul></div></div></div></li></ul>
+    <a class="uk-navbar-toggle"  uk-search-icon="" uk-toggle=""></a>
+    <div id="search-2-modal" class="uk-modal-full" uk-modal="container: true">
+        <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close="" uk-toggle="cls: uk-modal-close-full uk-close-large uk-modal-close-default; mode: media; media: @s"></button>
+            <div class="uk-search uk-search-large">
+                <form id="search-2" action="https://www.epiloglaser.com/de" method="get" role="search" class="uk-search uk-search-large"><input name="s" placeholder="Suche" required="" aria-label="Search" type="search" class="uk-search-input sl-search-input uk-text-center" autofocus="" /></form>            </div>
+        </div>
+    </div>
+                    </div>
+                </nav>
+            </div>	
+        </div>
+		<div class="ep-breadcrumb">		
+			<div class="uk-container">
+				<div class="uk-flex-middle uk-flex-between uk-grid-default" uk-grid="">
+				<div id="breadcrumbs" class="uk-width-expand"><span><span><a >Startseite</a></span>  /  <span><a >Lasermaschinen</a></span>  /  <span class="breadcrumb_last" aria-current="page">Produktlinie</span></span></div>				
+					<div id="free-brochure-wrapper" class="">
+						<a  class="uk-width-1-1 uk-button uk-button-primary free-brochure">
+							<div class="">Fordern Kostenlose Muster und Informationen</div>
+						</a>
+					</div>				
+				</div>
+			</div>	
+		</div>
+        </div>
+</div>
+            <main id="tm-main">
+<div class="hero uk-section-primary uk-position-relative">
+        <div data- data-sources="[{&quot;type&quot;:&quot;image\/webp&quot;,&quot;srcset&quot;:&quot;\/assets\/themes\/yootheme\/cache\/b3\/fish-engraving-on-skateboard-b361337e.webp 1920w&quot;,&quot;sizes&quot;:&quot;(max-aspect-ratio: 1920\/500) 384vh&quot;}]" uk-img="" class="uk-background-norepeat uk-background-cover uk-background-top-center uk-section uk-section-large" uk-parallax="bgy: 0,220; easing: 1">    
+                <div class="uk-position-cover" style="background-color: rgba(0, 0, 0, 0.2);"></div>        
+                                <div class="uk-container uk-container-expand uk-position-relative">                
+                    <div class="uk-panel uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+<div class="uk-width-1-1@m">
+<div class="uk-text-uppercase uk-text-center">        Epilog Laser    </div>
+<h1 class="uk-heading-divider uk-margin-small uk-width-2xlarge uk-margin-auto uk-text-center">        Laser-Produktlinie    </h1>
+<h3 class="uk-text-lead uk-text-italic uk-margin-small uk-text-center">        Laser zum Gravieren, Schneiden und Markieren.    </h3>
+</div></div>
+                                </div>                
+        </div>
+</div>
+<div class="uk-section-default uk-section">
+                                <div class="uk-container">                
+                    <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+<div class="uk-width-1-1">
+<div class="uk-padding-large uk-padding-remove-left uk-padding-remove-top uk-margin-remove-top">
+    <div class="uk-grid uk-child-width-1-1 uk-child-width-1-1@m uk-grid-row-large uk-grid-match" uk-grid="">        <div>
+<div class="el-item uk-panel">
+                <div class="uk-flex-middle" uk-grid="">        
+                        <div class="uk-width-2-5@m">            
+                                <a >
+                <picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/b5/fusion-maker-12-24-36-group-b586a22b.webp 600w" sizes="(min-width: 600px) 600px">
+<img decoding="async"  width="600" height="368" alt="Fusion Maker-Laser" loading="lazy" class="el-image" />
+</source></picture>        
+</a>                
+                        </div>            
+                        <div class="uk-width-expand uk-margin-remove-first-child">            
+                <h2 class="el-title uk-heading-divider uk-font-tertiary uk-text-secondary uk-margin-top uk-margin-remove-bottom">                        <a  class="uk-link-reset">Fusion Maker </a>                    </h2>        
+                <div class="el-meta uk-text-muted">Starter-Serie</div>        
+                <div class="el-content uk-panel">Lernen Sie die Fusion Maker Laserserie kennen, das neueste Einsteigergerät von Epilog, das sich ideal für Unternehmer, Künstler, Designer und Hersteller aller Art eignet. Diese Serie umfasst den Fusion Maker 12, ein kompaktes System mit einem 24 x 12 Zoll großen Bearbeitungstisch, sowie den größeren Fusion Maker 24 (24 x 24 Zoll) und den Fusion Maker 36 (36 x 24 Zoll). Alle drei Systeme verfügen über unser beliebtes IRIS™-Kamerapositionierungssystem und eine Gravurgeschwindigkeit von 60 IPS (1,5 m/Sek.) - das sind 25 % mehr als bei unserer vorherigen Einsteigerserie!</div>        
+                <div class="uk-margin-top"><a  class="el-link uk-button uk-button-primary">Mehr erfahren</a></div>        
+                        </div>            
+                </div>        
+</div></div>
+        <div>
+<div class="el-item uk-panel">
+                <div class="uk-flex-middle" uk-grid="">        
+                        <div class="uk-width-2-5@m">            
+                                <a >
+                <picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/6d/fusion-edge-12-24-36-group-6d8dd3ee.webp 600w" sizes="(min-width: 600px) 600px">
+<img decoding="async"  width="600" height="368" alt="Fusion Edge-Laser" loading="lazy" class="el-image" />
+</source></picture>        
+</a>                
+                        </div>            
+                        <div class="uk-width-expand uk-margin-remove-first-child">            
+                <h2 class="el-title uk-heading-divider uk-font-tertiary uk-text-secondary uk-margin-top uk-margin-remove-bottom">                        <a  class="uk-link-reset">Fusion Edge </a>                    </h2>        
+                <div class="el-meta uk-text-muted">Business-Serie</div>        
+                <div class="el-content uk-panel">Die neuesten Laser von Epilog kombinieren führende Technologie und neueste Funktionen in einem kompakten Format und bieten eine Gravurgeschwindigkeit von 3,05 m/s sowie eine Beschleunigung von 5 g.</div>        
+                <div class="uk-margin-top"><a  class="el-link uk-button uk-button-primary">Mehr erfahren</a></div>        
+                        </div>            
+                </div>        
+</div></div>
+        <div>
+<div class="el-item uk-panel">
+                <div class="uk-flex-middle" uk-grid="">        
+                        <div class="uk-width-2-5@m">            
+                                <a >
+                <picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/94/fusion-pro-24-36-48-group-94a418af.webp 600w" sizes="(min-width: 600px) 600px">
+<img decoding="async"  width="600" height="336" alt="Fusion Pro-Laser" loading="lazy" class="el-image" />
+</source></picture>        
+</a>                
+                        </div>            
+                        <div class="uk-width-expand uk-margin-remove-first-child">            
+                <h2 class="el-title uk-heading-divider uk-font-tertiary uk-text-secondary uk-margin-top uk-margin-remove-bottom">                        <a  class="uk-link-reset">Fusion Pro </a>                    </h2>        
+                <div class="el-meta uk-text-muted">Industrial-Serie</div>        
+                <div class="el-content uk-panel">Die Fusion Pro-Laserserie von Epilog Laser bietet den bislang größten Arbeitsbereich, die höchsten Geschwindigkeiten und die höchste Gravurqualität. Dazu kommen eine Touchscreensteuerung und unser brandneues IRIS™-Kamerapositionierungssystem.</div>        
+                <div class="uk-margin-top"><a  class="el-link uk-button uk-button-primary">Mehr erfahren</a></div>        
+                        </div>            
+                </div>        
+</div></div>
+        </div>
+</div>
+</div></div>
+                                </div>                
+</div>
+<div class="uk-section-muted uk-section uk-padding-remove-vertical">
+                    <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+<div class="uk-width-1-1">
+                    <div class="uk-panel uk-margin"><div id="ep-Product-Line">
+        <section id="epProductTable" class="ep-products-comparison-table">
+            <header id="epProductHeader">
+                <div class="headerInner uk-container uk-flex uk-flex-between">						
+                    <div class="filterHeadingWrapper"><h2 class="filterHeading uk-heading-bullet"><span class="uk-text-900">Produkt</span>sortiment</h2></div>
+                    <div class="actions uk-flex uk-flex-middle">
+                        <a  class="help uk-visible@s" title="Wählen Sie für den Vergleich den Namen der Laser und anschließend „Vergleichen“." uk-tooltip="offset: 20"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Hilfe</a>                            
+                        <a  class="filter">Vergleichen</a>
+                        <a  class="reset">Zurücksetzen </a>
+                    </div>
+                </div>
+            </header>
+            <div id="productHeader-placeHolder" class="placeHolder uk-hidden"></div>                    
+            <div id="epProduct-products-table" class="ep-products-table">
+                <div class="features">                    
+                    <ul class="ep-features-list">
+                        <li class="epProductRow1 matchImageHeight"><div class="iconWrapper"><i class="productIcon fas fa-power-off"></i><span>Laser:</span></div></li>
+                        <li class="epProductRow2"><div class="iconWrapper"><i class="productIcon fas fa-ruler-combined"></i><span>Maximaler Gravurbereich:</span></div></li>
+                        <li class="epProductRow3"><div class="iconWrapper"><i class="productIcon fas fa-ruler-vertical"></i><span>Materialdicke:</span></div></li>
+                        <li class="epProductRow4"><div class="iconWrapper"><i class="productIcon fas fa-vial"></i><span>Laserquellentypen:</span></div></li>
+                        <li class="epProductRow5"><div class="iconWrapper"><i class="productIcon fas fa-tachometer-alt"></i><span>Wattleistung der Laserquelle:</span></div></li>
+                        <li class="epProductRow6"><div class="iconWrapper"><i class="productIcon fas fa-print"></i><span>Druckertreiber und Software:</span></div></li>
+                        <li class="epProductRow7"><div class="iconWrapper"><i class="productIcon fas fa-brain"></i><span>Interner Speicher:</span></div></li>
+                        <li class="epProductRow8"><div class="iconWrapper"><i class="productIcon fas fa-list-ul"></i><span>Betriebsmodi:</span></div></li>
+                        <li class="epProductRow9"><div class="iconWrapper"><i class="productIcon fas fa-camera"></i><span>IRIS™-Kamerasystem:</span></div></li>
+                        <li class="epProductRow10"><div class="iconWrapper"><i class="productIcon fas fa-stopwatch"></i><span>Maximale Gravurgeschwindigkeit (Zoll/Meter pro Sekunde):</span></div></li>							
+                        <li class="epProductRow11"><div class="iconWrapper"><i class="productIcon fas fa-tachometer-alt"></i><span>Beschleunigung:</span></div></li>
+						<li class="epProductRow12"><div class="iconWrapper"><i class="productIcon fas fa-fan"></i><span>Super-Silent-Lüfter:</span></div></li>						
+                        <li class="epProductRow13"><div class="iconWrapper"><i class="productIcon fas fa-wifi"></i><span>Konnektivität:</span></div></li>
+                        <li class="epProductRow14"><div class="iconWrapper"><i class="productIcon fas fa-cogs"></i><span>Bewegungssystem:</span></div></li>
+                        <li class="epProductRow15"><div class="iconWrapper"><i class="productIcon fas fa-border-none"></i><span>Auftragsvorschau:</span></div></li>
+                        <li class="epProductRow16"><div class="iconWrapper"><i class="productIcon fas fa-eye"></i><span>Autofokus:</span></div></li>
+                        <li class="epProductRow17"><div class="iconWrapper"><i class="productIcon fas fa-fingerprint"></i><span>Touchscreen:</span></div></li>
+                        <li class="epProductRow18"><div class="iconWrapper"><i class="productIcon fas fa-sun"></i><span>Statusleuchte:</span></div></li>
+                        <li class="epProductRow19"><div class="iconWrapper"><i class="productIcon fas fa-border-all"></i><span>Mitgelieferter Tisch:</span></div></li>
+                        <li class="epProductRow20"><div class="iconWrapper"><i class="productIcon fas fa-caret-square-down"></i><span>Klappe:</span></div></li>
+                        <li class="epProductRow21"><div class="iconWrapper"><i class="productIcon fas fa-wind"></i><span>Druckluftkompressor:</span></div></li>
+                        <li class="epProductRow22"><div class="iconWrapper"><i class="productIcon fas fa-hard-hat"></i><span>Schutzfunktionen:</span></div></li>
+						<li class="epProductRow23"><div class="iconWrapper"><i class="productIcon fas fa-certificate"></i><span>Klasse:</span></div></li>
+						<li class="epProductRow24"></li>
+                    </ul>
+                </div>             
+                <div class="ep-products-wrapper epProduct">
+                    <ul id="swap_product-line" class="ep-products-columns">
+						<li class="product ">                        
+                            <div class="top-placeHolder placeHolder uk-hidden"></div>
+                            <div id="Fusion-Maker-12" class="topInfo">
+                                <div class="topInfo-Inner">
+                                    <div class="product-title-wrapper">
+										<h3 class="uk-text-uppercase uk-font-tertiary uk-text-secondary uk-margin-remove">Fusion Maker 12</h3>
+                                        <div class="grad-ribbon"></div></div>
+                                    <div class="seriesHeading">
+										Starter-Serie</div>
+                                    <div class="ep-radio">					
+                                        <input class="ep-radio-switch ep-radio-switch_yes" />
+                                        <input class="ep-radio-switch ep-radio-switch_no" />		
+                                        <label class="ep-radio-switch_label ep-radio-switch_label_yes"><span class="ep-radio-switch_txt">Ausgewählt</span></label><label class="ep-radio-switch_label ep-radio-switch_label_no"><span class="ep-radio-switch_txt">Vergleichen</span></label>
+                                    </div>	
+                                </div>
+                            </div> 
+                            <ul class="ep-features-list">
+                                <li class="epProductRow1">
+									<img fetchpriority="high" decoding="async" width="400" height="300"  class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fusion Maker 12 Lasermaschine" />								</li>
+                                <li class="epProductRow2">24 x 12 Zoll<br /><span class="uk-text-xsmall">(610 x 305 mm)</span></li>
+                                <li class="epProductRow3">178 mm (7&quot;)</li>
+                                <li class="epProductRow4"><strong>CO<sub>2</sub>:</strong> luftgekühlte Waveguide-Röhre aus Metall/Keramik, 10,6 Mikrometer</li>
+                                <li class="epProductRow5"><strong>CO<sub>2</sub>:</strong> 30 oder 40 Watt</li>
+                                <li class="epProductRow6">Laser Dashboard™, Epilog Job Manager™</li>
+                                <li class="epProductRow7">Speichern Sie Dateien von bis zu 1 GB Größe. Gravieren Sie Dateien jeder Größe.</li>
+                                <li class="epProductRow8">Optimierter Rastermodus, Vektormodus oder kombinierter Modus.</li>
+                                <li class="epProductRow9">1 (Überkopfkamera)</li>
+                                <li class="epProductRow10">60 IPS (1,5 m/s)</li>
+								<li class="epProductRow11">3,5G</li>
+                                <li class="epProductRow12">Enthalten</li>			
+                                <li class="epProductRow13">Integrierte Ethernet-, USB- und Drahtlosverbindungen</li>
+                                <li class="epProductRow14">Hochgeschwindigkeits-Schrittmotoren</li>
+                                <li class="epProductRow15">Enthalten</li>
+                                <li class="epProductRow16">Enthalten</li>
+                                <li class="epProductRow17">Enthalten</li>
+                                <li class="epProductRow18">--</li>
+                                <li class="epProductRow19">Waben-Schneidetisch</li>
+                                <li class="epProductRow20">--</li>
+                                <li class="epProductRow21">Nicht enthalten <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Erforderliches Zubehör. Erhältlich über Epilog." uk-tooltip=""></a></li>
+                                <li class="epProductRow22">Enthalten</li>
+								<li class="epProductRow23">Laserprodukt der Klasse 2 – 1 mW cW, MAX. 600-700 nm</li>
+                                <li class="epProductRow24"><a class="cta uk-button uk-button-primary" ><div><span>Mehr erfahren</span></div></a></li>
+                            </ul>
+                        </li> 
+						<li class="product ">                        
+                            <div class="top-placeHolder placeHolder uk-hidden"></div>
+                            <div id="Fusion-Maker-24" class="topInfo">
+                                <div class="topInfo-Inner">
+                                    <div class="product-title-wrapper">
+										<h3 class="uk-text-uppercase uk-font-tertiary uk-text-secondary uk-margin-remove">Fusion Maker 24</h3>
+                                        <div class="grad-ribbon"></div></div>
+                                    <div class="seriesHeading">
+										Starter-Serie</div>
+                                    <div class="ep-radio">					
+                                        <input class="ep-radio-switch ep-radio-switch_yes" />
+                                        <input class="ep-radio-switch ep-radio-switch_no" />		
+                                        <label class="ep-radio-switch_label ep-radio-switch_label_yes"><span class="ep-radio-switch_txt">Ausgewählt</span></label><label class="ep-radio-switch_label ep-radio-switch_label_no"><span class="ep-radio-switch_txt">Vergleichen</span></label>
+                                    </div>	
+                                </div>
+                            </div> 
+                            <ul class="ep-features-list">
+                                <li class="epProductRow1">
+									<img decoding="async" width="400" height="300"  class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Epilog Maker 24 Lasermaschine" srcset="https://www.epiloglaser.com/assets/img/fusion-maker-24-laser.jpg 400w, https://www.epiloglaser.com/assets/img/fusion-maker-24-laser-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />								</li>
+                                <li class="epProductRow2">24 x 24 Zoll<br /><span class="uk-text-xsmall">(610 x 610 mm)</span></li>
+                                <li class="epProductRow3">10&quot; (254 mm)</li>
+                                <li class="epProductRow4"><strong>CO<sub>2</sub>:</strong> luftgekühlte Waveguide-Röhre aus Metall/Keramik, 10,6 Mikrometer</li>
+                                <li class="epProductRow5"><strong>CO<sub>2</sub>:</strong> 40 Watt</li>
+                                <li class="epProductRow6">Laser Dashboard™, Epilog Job Manager™</li>
+                                <li class="epProductRow7">Speichern Sie Dateien von bis zu 1 GB Größe. Gravieren Sie Dateien jeder Größe.</li>
+                                <li class="epProductRow8">Optimierter Rastermodus, Vektormodus oder kombinierter Modus.</li>
+                                <li class="epProductRow9">2 (Überkopfkamera)</li>
+                                <li class="epProductRow10">60 IPS (1,5 m/s)</li>
+								<li class="epProductRow11">3,5G</li>
+                                <li class="epProductRow12">Enthalten</li>			
+                                <li class="epProductRow13">Integrierte Ethernet-, USB- und Drahtlosverbindungen</li>
+                                <li class="epProductRow14">Hochgeschwindigkeits-Schrittmotoren</li>
+                                <li class="epProductRow15">Enthalten</li>
+                                <li class="epProductRow16">Enthalten</li>
+                                <li class="epProductRow17">Enthalten</li>
+                                <li class="epProductRow18">--</li>
+                                <li class="epProductRow19">Waben-Schneidetisch</li>
+                                <li class="epProductRow20">--</li>
+                                <li class="epProductRow21">Nicht enthalten <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Erforderliches Zubehör. Erhältlich über Epilog." uk-tooltip=""></a></li>
+                                <li class="epProductRow22">Enthalten</li>
+								<li class="epProductRow23">Laserprodukt der Klasse 2 – 1 mW cW, MAX. 600-700 nm</li>
+                                <li class="epProductRow24"><a class="cta uk-button uk-button-primary" ><div><span>Mehr erfahren</span></div></a></li>
+                            </ul>
+                        </li> 
+						<li class="product ">                        
+                            <div class="top-placeHolder placeHolder uk-hidden"></div>
+                            <div id="Fusion-Maker-36" class="topInfo">
+                                <div class="topInfo-Inner">
+                                    <div class="product-title-wrapper">
+										<h3 class="uk-text-uppercase uk-font-tertiary uk-text-secondary uk-margin-remove">Fusion Maker 36</h3>
+                                        <div class="grad-ribbon"></div></div>
+                                    <div class="seriesHeading">
+										Starter-Serie</div>
+                                    <div class="ep-radio">					
+                                        <input class="ep-radio-switch ep-radio-switch_yes" />
+                                        <input class="ep-radio-switch ep-radio-switch_no" />		
+                                        <label class="ep-radio-switch_label ep-radio-switch_label_yes"><span class="ep-radio-switch_txt">Ausgewählt</span></label><label class="ep-radio-switch_label ep-radio-switch_label_no"><span class="ep-radio-switch_txt">Vergleichen</span></label>
+                                    </div>	
+                                </div>
+                            </div> 
+                            <ul class="ep-features-list">
+                                <li class="epProductRow1">
+									<img decoding="async" width="400" height="300"  class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Epilog Maker 36 Lasermaschine" srcset="https://www.epiloglaser.com/assets/img/fusion-maker-36-laser.jpg 400w, https://www.epiloglaser.com/assets/img/fusion-maker-36-laser-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />								</li>
+                                <li class="epProductRow2">36 x 24 Zoll (915 x 610 mm)</li>
+                                <li class="epProductRow3">10&quot; (254 mm)</li>
+                                <li class="epProductRow4"><strong>CO<sub>2</sub>:</strong> luftgekühlte Waveguide-Röhre aus Metall/Keramik, 10,6 Mikrometer</li>
+                                <li class="epProductRow5"><strong>CO<sub>2</sub>:</strong> 40 oder 50 Watt</li>
+                                <li class="epProductRow6">Laser Dashboard™, Epilog Job Manager™</li>
+                                <li class="epProductRow7">Speichern Sie Dateien von bis zu 1 GB Größe. Gravieren Sie Dateien jeder Größe.</li>
+                                <li class="epProductRow8">Optimierter Rastermodus, Vektormodus oder kombinierter Modus.</li>
+                                <li class="epProductRow9">2 (Überkopfkamera)</li>
+                                <li class="epProductRow10">60 IPS (1,5 m/s)</li>
+								<li class="epProductRow11">3,5G</li>
+                                <li class="epProductRow12">Enthalten</li>			
+                                <li class="epProductRow13">Integrierte Ethernet-, USB- und Drahtlosverbindungen</li>
+                                <li class="epProductRow14">Hochgeschwindigkeits-Schrittmotoren</li>
+                                <li class="epProductRow15">Enthalten</li>
+                                <li class="epProductRow16">Enthalten</li>
+                                <li class="epProductRow17">Enthalten</li>
+                                <li class="epProductRow18">--</li>
+                                <li class="epProductRow19">Waben-Schneidetisch</li>
+                                <li class="epProductRow20">--</li>
+                                <li class="epProductRow21">Nicht enthalten <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Erforderliches Zubehör. Erhältlich über Epilog." uk-tooltip=""></a></li>
+                                <li class="epProductRow22">Enthalten</li>
+								<li class="epProductRow23">Laserprodukt der Klasse 2 – 1 mW cW, MAX. 600-700 nm</li>
+                                <li class="epProductRow24"><a class="cta uk-button uk-button-primary" ><div><span>Mehr erfahren</span></div></a></li>
+                            </ul>
+                        </li> 
+						<li class="product ">                        
+                            <div class="top-placeHolder placeHolder uk-hidden"></div>
+                            <div id="Fusion-Edge-12" class="topInfo">
+                                <div class="topInfo-Inner">
+                                    <div class="product-title-wrapper">
+										<h3 class="uk-text-uppercase uk-font-tertiary uk-text-secondary uk-margin-remove">Fusion Edge 12</h3>
+                                        <div class="grad-ribbon"></div></div>
+                                    <div class="seriesHeading">
+										Business-Serie</div>
+                                    <div class="ep-radio">					
+                                        <input class="ep-radio-switch ep-radio-switch_yes" />
+                                        <input class="ep-radio-switch ep-radio-switch_no" />		
+                                        <label class="ep-radio-switch_label ep-radio-switch_label_yes"><span class="ep-radio-switch_txt">Ausgewählt</span></label><label class="ep-radio-switch_label ep-radio-switch_label_no"><span class="ep-radio-switch_txt">Vergleichen</span></label>
+                                    </div>	
+                                </div>
+                            </div> 
+                            <ul class="ep-features-list">
+                                <li class="epProductRow1">
+									<img decoding="async" width="400" height="300"  class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fusion Edge 12-Laser" srcset="https://www.epiloglaser.com/assets/img/fusion-edge-12-laser.jpg 400w, https://www.epiloglaser.com/assets/img/fusion-edge-12-laser-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />								</li>
+                                <li class="epProductRow2">24 x 12 Zoll<br /><span class="uk-text-xsmall">(610 x 305 mm)</span></li>
+                                <li class="epProductRow3">178 mm (7&quot;)</li>
+                                <li class="epProductRow4"><strong>CO<sub>2</sub>:</strong> luftgekühlt, Waveguide-Röhre aus Metall/Keramik, 10,6 Mikrometer <br /><strong>Faser:</strong> luftgekühlt, mit Blende, 1065 nm, Strahlqualität: M2 &lt; 1,1</li>
+                                <li class="epProductRow5"><strong>CO<sub>2</sub>:</strong> 50 oder 60 Watt <br /><strong>Faser:</strong> 30 Watt</li>
+                                <li class="epProductRow6">Laser Dashboard™, Epilog Job Manager™</li>
+                                <li class="epProductRow7">Speichern Sie Dateien von bis zu 1 GB Größe. Gravieren Sie Dateien jeder Größe.</li>
+                                <li class="epProductRow8">Optimierter Rastermodus, Vektormodus oder kombinierter Modus.</li>
+                                <li class="epProductRow9">1 (Überkopfkamera)</li>
+                                <li class="epProductRow10">120 IPS/3,05 m/s</li>
+								<li class="epProductRow11">5G</li>
+                                <li class="epProductRow12">Enthalten</li>			
+                                <li class="epProductRow13">Integrierte Ethernet-, USB- und Drahtlosverbindungen</li>
+                                <li class="epProductRow14">Bürstenlose Gleichstrom-Servomotoren</li>
+                                <li class="epProductRow15">Enthalten</li>
+                                <li class="epProductRow16">Enthalten</li>
+                                <li class="epProductRow17">Enthalten</li>
+                                <li class="epProductRow18">--</li>
+                                <li class="epProductRow19">Waben-Schneidetisch</li>
+                                <li class="epProductRow20">--</li>
+                                <li class="epProductRow21">Nicht enthalten <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Erforderliches Zubehör. Erhältlich über Epilog." uk-tooltip=""></a></li>
+                                <li class="epProductRow22">Enthalten</li>
+								<li class="epProductRow23">Laserprodukt der Klasse 2 – 1 mW cW, MAX. 600-700 nm</li>
+                                <li class="epProductRow24"><a class="cta uk-button uk-button-primary" ><div><span>Mehr erfahren</span></div></a></li>
+                            </ul>
+                        </li> 
+						<li class="product ">                        
+                            <div class="top-placeHolder placeHolder uk-hidden"></div>
+                            <div id="Fusion-Edge-24" class="topInfo">
+                                <div class="topInfo-Inner">
+                                    <div class="product-title-wrapper">
+										<h3 class="uk-text-uppercase uk-font-tertiary uk-text-secondary uk-margin-remove">Fusion Edge 24</h3>
+                                        <div class="grad-ribbon"></div></div>
+                                    <div class="seriesHeading">
+										Business-Serie</div>
+                                    <div class="ep-radio">					
+                                        <input class="ep-radio-switch ep-radio-switch_yes" />
+                                        <input class="ep-radio-switch ep-radio-switch_no" />		
+                                        <label class="ep-radio-switch_label ep-radio-switch_label_yes"><span class="ep-radio-switch_txt">Ausgewählt</span></label><label class="ep-radio-switch_label ep-radio-switch_label_no"><span class="ep-radio-switch_txt">Vergleichen</span></label>
+                                    </div>	
+                                </div>
+                            </div> 
+                            <ul class="ep-features-list">
+                                <li class="epProductRow1">
+									<img decoding="async" width="400" height="300"  class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fusion Edge 24-Laser" srcset="https://www.epiloglaser.com/assets/img/fusion-edge-24-laser.jpg 400w, https://www.epiloglaser.com/assets/img/fusion-edge-24-laser-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />								</li>
+                                <li class="epProductRow2">24 x 24 Zoll<br /><span class="uk-text-xsmall">(610 x 610 mm)</span></li>
+                                <li class="epProductRow3">10&quot; (254 mm)</li>
+                                <li class="epProductRow4"><strong>CO<sub>2</sub>:</strong> luftgekühlte Waveguide-Röhre aus Metall/Keramik, 10,6 Mikrometer									</li>
+                                <li class="epProductRow5"><strong>CO<sub>2</sub>:</strong> 50 oder 60 Watt</li>
+                                <li class="epProductRow6">Laser Dashboard™, Epilog Job Manager™</li>
+                                <li class="epProductRow7">Speichern Sie Dateien von bis zu 1 GB Größe. Gravieren Sie Dateien jeder Größe.</li>
+                                <li class="epProductRow8">Optimierter Rastermodus, Vektormodus oder kombinierter Modus.</li>
+                                <li class="epProductRow9">2 (Überkopfkamera)</li>
+                                <li class="epProductRow10">120 IPS/3,05 m/s</li>
+								<li class="epProductRow11">5G</li>
+                                <li class="epProductRow12">Enthalten</li>			
+                                <li class="epProductRow13">Integrierte Ethernet-, USB- und Drahtlosverbindungen</li>
+                                <li class="epProductRow14">Bürstenlose Gleichstrom-Servomotoren</li>
+                                <li class="epProductRow15">Enthalten</li>
+                                <li class="epProductRow16">Enthalten</li>
+                                <li class="epProductRow17">Enthalten</li>
+                                <li class="epProductRow18">--</li>
+                                <li class="epProductRow19">Waben-Schneidetisch</li>
+                                <li class="epProductRow20">--</li>
+                                <li class="epProductRow21">Nicht enthalten <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Erforderliches Zubehör. Erhältlich über Epilog." uk-tooltip=""></a></li>
+                                <li class="epProductRow22">Enthalten</li>
+								<li class="epProductRow23">Laserprodukt der Klasse 2 – 1 mW cW, MAX. 600-700 nm</li>
+                                <li class="epProductRow24"><a class="cta uk-button uk-button-primary" ><div><span>Mehr erfahren</span></div></a></li>
+                            </ul>
+                        </li> 
+						<li class="product ">                        
+                            <div class="top-placeHolder placeHolder uk-hidden"></div>
+                            <div id="Fusion-Edge-36" class="topInfo">
+                                <div class="topInfo-Inner">
+                                    <div class="product-title-wrapper">
+										<h3 class="uk-text-uppercase uk-font-tertiary uk-text-secondary uk-margin-remove">Fusion Edge 36</h3>
+                                        <div class="grad-ribbon"></div></div>
+                                    <div class="seriesHeading">
+										Business-Serie</div>
+                                    <div class="ep-radio">					
+                                        <input class="ep-radio-switch ep-radio-switch_yes" />
+                                        <input class="ep-radio-switch ep-radio-switch_no" />		
+                                        <label class="ep-radio-switch_label ep-radio-switch_label_yes"><span class="ep-radio-switch_txt">Ausgewählt</span></label><label class="ep-radio-switch_label ep-radio-switch_label_no"><span class="ep-radio-switch_txt">Vergleichen</span></label>
+                                    </div>	
+                                </div>
+                            </div> 
+                            <ul class="ep-features-list">
+                                <li class="epProductRow1">
+									<img decoding="async" width="400" height="300"  class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fusion Edge 36-Laser" srcset="https://www.epiloglaser.com/assets/img/fusion-edge-36-laser.jpg 400w, https://www.epiloglaser.com/assets/img/fusion-edge-36-laser-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />								</li>
+                                <li class="epProductRow2">36 x 24 Zoll<br /><span class="uk-text-xsmall">(914 x 610mm)</span></li>
+                                <li class="epProductRow3">10&quot; (254 mm)</li>
+                                <li class="epProductRow4"><strong>CO<sub>2</sub>:</strong> luftgekühlte Waveguide-Röhre aus Metall/Keramik, 10,6 Mikrometer</li>
+                                <li class="epProductRow5"><strong>CO<sub>2</sub>:</strong> 60 Watt</li>
+                                <li class="epProductRow6">Laser Dashboard™, Epilog Job Manager™</li>
+                                <li class="epProductRow7">Speichern Sie Dateien von bis zu 1 GB Größe. Gravieren Sie Dateien jeder Größe.</li>
+                                <li class="epProductRow8">Optimierter Rastermodus, Vektormodus oder kombinierter Modus.</li>
+                                <li class="epProductRow9">2 (Überkopfkamera)</li>
+                                <li class="epProductRow10">120 IPS/3,05 m/s</li>
+								<li class="epProductRow11">5G</li>
+                                <li class="epProductRow12">Enthalten</li>			
+                                <li class="epProductRow13">Integrierte Ethernet-, USB- und Drahtlosverbindungen</li>
+                                <li class="epProductRow14">Bürstenlose Gleichstrom-Servomotoren</li>
+                                <li class="epProductRow15">Enthalten</li>
+                                <li class="epProductRow16">Enthalten</li>
+                                <li class="epProductRow17">Enthalten</li>
+                                <li class="epProductRow18">--</li>
+                                <li class="epProductRow19">Waben-Schneidetisch</li>
+                                <li class="epProductRow20">--</li>
+                                <li class="epProductRow21">Nicht enthalten <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Erforderliches Zubehör. Erhältlich über Epilog." uk-tooltip=""></a></li>
+                                <li class="epProductRow22">Enthalten</li>
+								<li class="epProductRow23">Laserprodukt der Klasse 2 – 1 mW cW, MAX. 600-700 nm</li>
+                                <li class="epProductRow24"><a class="cta uk-button uk-button-primary" ><div><span>Mehr erfahren</span></div></a></li>
+                            </ul>
+                        </li> 
+						<li class="product ">                        
+                            <div class="top-placeHolder placeHolder uk-hidden"></div>
+                            <div id="Fusion-Pro-24" class="topInfo">
+                                <div class="topInfo-Inner">
+                                    <div class="product-title-wrapper">
+										<h3 class="uk-text-uppercase uk-font-tertiary uk-text-secondary uk-margin-remove">Fusion Pro 24</h3>
+                                        <div class="grad-ribbon"></div></div>
+                                    <div class="seriesHeading">
+										Industrial-Serie</div>
+                                    <div class="ep-radio">					
+                                        <input class="ep-radio-switch ep-radio-switch_yes" />
+                                        <input class="ep-radio-switch ep-radio-switch_no" />		
+                                        <label class="ep-radio-switch_label ep-radio-switch_label_yes"><span class="ep-radio-switch_txt">Ausgewählt</span></label><label class="ep-radio-switch_label ep-radio-switch_label_no"><span class="ep-radio-switch_txt">Vergleichen</span></label>
+                                    </div>	
+                                </div>
+                            </div> 
+                            <ul class="ep-features-list">
+                                <li class="epProductRow1">
+									<img decoding="async" width="400" height="300"  class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fusion Pro 24-Laser" srcset="https://www.epiloglaser.com/assets/img/fusion-pro-24-laser.jpg 400w, https://www.epiloglaser.com/assets/img/fusion-pro-24-laser-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />								</li>
+                                <li class="epProductRow2">24 x 24 Zoll<br /><span class="uk-text-xsmall">(610 x 610 mm)</span></li>
+                                <li class="epProductRow3">9 Zoll (228 mm)</li>
+                                <li class="epProductRow4"><strong>CO<sub>2</sub>:</strong> luftgekühlt, Waveguide-Röhre aus Metall/Keramik, 10,6 Mikrometer <br /><strong>Faser:</strong> luftgekühlt, mit Blende, 1065 nm, Strahlqualität: M2 &lt; 1,1									</li>
+                                <li class="epProductRow5"><strong>CO<sub>2</sub>:</strong> 60 oder 100 Watt<br /><strong>Glasfaser:</strong> 30 Watt <br /><strong>Dualquelle:</strong> 60 Watt CO<sub>2</sub> &amp; 30 Watt Glasfaser, 100 Watt CO<sub>2</sub> &amp; 50 Watt Glasfaser</li>
+                                <li class="epProductRow6">Laser Dashboard™, Epilog Job Manager™</li>
+                                <li class="epProductRow7">Speichern Sie Dateien von bis zu 1 GB Größe. Gravieren Sie Dateien jeder Größe.</li>
+                                <li class="epProductRow8">Optimierter Rastermodus, Vektormodus oder kombinierter Modus.</li>
+                                <li class="epProductRow9">2 (Überkopfkamera und Markierung) <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Markierung: Die zusätzliche Kamera am Objektiv erleichtert die Orientierung bei Material mit vorgedruckten Markierungen." uk-tooltip=""></a></li>
+                                <li class="epProductRow10">165 IPS/4,2 m/s</li>
+								<li class="epProductRow11">5G</li>
+                                <li class="epProductRow12">Enthalten</li>			
+                                <li class="epProductRow13">Integrierte Ethernet-, USB- und Drahtlosverbindungen</li>
+                                <li class="epProductRow14">Bürstenlose Gleichstrom-Servomotoren</li>
+                                <li class="epProductRow15">Enthalten</li>
+                                <li class="epProductRow16">Enthalten</li>
+                                <li class="epProductRow17">Enthalten</li>
+                                <li class="epProductRow18">Enthalten</li>
+                                <li class="epProductRow19">CO2 - Gitterschneidetisch, Faser/Dual - Arbeitsplattentisch</li>
+                                <li class="epProductRow20">Enthalten</li>
+                                <li class="epProductRow21">Nicht enthalten <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Erforderliches Zubehör. Erhältlich über Epilog." uk-tooltip=""></a></li>
+                                <li class="epProductRow22">Enthalten</li>
+								<li class="epProductRow23">Laserprodukt der Klasse 2 – 1 mW cW, MAX. 600-700 nm</li>
+                                <li class="epProductRow24"><a class="cta uk-button uk-button-primary" ><div><span>Mehr erfahren</span></div></a></li>
+                            </ul>
+                        </li> 
+						<li class="product ">                        
+                            <div class="top-placeHolder placeHolder uk-hidden"></div>
+                            <div id="Fusion-Pro-36" class="topInfo">
+                                <div class="topInfo-Inner">
+                                    <div class="product-title-wrapper">
+										<h3 class="uk-text-uppercase uk-font-tertiary uk-text-secondary uk-margin-remove">Fusion Pro 36</h3>
+                                        <div class="grad-ribbon"></div></div>
+                                    <div class="seriesHeading">
+										Industrial-Serie</div>
+                                    <div class="ep-radio">					
+                                        <input class="ep-radio-switch ep-radio-switch_yes" />
+                                        <input class="ep-radio-switch ep-radio-switch_no" />		
+                                        <label class="ep-radio-switch_label ep-radio-switch_label_yes"><span class="ep-radio-switch_txt">Ausgewählt</span></label><label class="ep-radio-switch_label ep-radio-switch_label_no"><span class="ep-radio-switch_txt">Vergleichen</span></label>
+                                    </div>	
+                                </div>
+                            </div> 
+                            <ul class="ep-features-list">
+                                <li class="epProductRow1">
+									<img decoding="async" width="400" height="300"  class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fusion Pro 36-Laser" srcset="https://www.epiloglaser.com/assets/img/fusion-pro-36-laser.jpg 400w, https://www.epiloglaser.com/assets/img/fusion-pro-36-laser-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />								</li>
+                                <li class="epProductRow2">36 x 24 Zoll<br /><span class="uk-text-xsmall">(914 x 610mm)</span></li>
+                                <li class="epProductRow3">9 Zoll (228 mm)</li>
+                                <li class="epProductRow4"><strong>CO<sub>2</sub>:</strong> luftgekühlt, Waveguide-Röhre aus Metall/Keramik, 10,6 Mikrometer<br /><strong>Faser (nur Dual Source):</strong> luftgekühlt, mit Blende, 1065 nm, Strahlqualität: M2 &lt; 1,1									</li>
+                                <li class="epProductRow5"><strong>CO<sub>2</sub>:</strong> 60, 80 oder 100 Watt<br /><strong>Dual Source:</strong> 80 Watt CO<sub>2</sub> und 30 Watt Fiber oder 100 Watt CO<sub>2</sub> und 50 Watt Fiber</li>
+                                <li class="epProductRow6">Laser Dashboard™, Epilog Job Manager™</li>
+                                <li class="epProductRow7">Speichern Sie Dateien von bis zu 1 GB Größe. Gravieren Sie Dateien jeder Größe.</li>
+                                <li class="epProductRow8">Optimierter Rastermodus, Vektormodus oder kombinierter Modus.</li>
+                                <li class="epProductRow9">2 (Überkopfkamera und Markierung) <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Markierung: Die zusätzliche Kamera am Objektiv erleichtert die Orientierung bei Material mit vorgedruckten Markierungen." uk-tooltip=""></a></li>
+                                <li class="epProductRow10">165 IPS/4,2 m/s</li>
+								<li class="epProductRow11">5G</li>
+                                <li class="epProductRow12">Enthalten</li>			
+                                <li class="epProductRow13">Integrierte Ethernet-, USB- und Drahtlosverbindungen</li>
+                                <li class="epProductRow14">Bürstenlose Gleichstrom-Servomotoren</li>
+                                <li class="epProductRow15">Enthalten</li>
+                                <li class="epProductRow16">Enthalten</li>
+                                <li class="epProductRow17">Enthalten</li>
+                                <li class="epProductRow18">Enthalten</li>
+                                <li class="epProductRow19">CO2 - Gitterschneidetisch, Dual - Arbeitsplattentisch</li>
+                                <li class="epProductRow20">Enthalten</li>
+                                <li class="epProductRow21">Nicht enthalten <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Erforderliches Zubehör. Erhältlich über Epilog." uk-tooltip=""></a></li>
+                                <li class="epProductRow22">Enthalten</li>
+								<li class="epProductRow23">Laserprodukt der Klasse 2 – 1 mW cW, MAX. 600-700 nm</li>
+                                <li class="epProductRow24"><a class="cta uk-button uk-button-primary" ><div><span>Mehr erfahren</span></div></a></li>
+                            </ul>
+                        </li> 
+						<li class="product ">                        
+                            <div class="top-placeHolder placeHolder uk-hidden"></div>
+                            <div id="Fusion-Pro-48" class="topInfo">
+                                <div class="topInfo-Inner">
+                                    <div class="product-title-wrapper">
+										<h3 class="uk-text-uppercase uk-font-tertiary uk-text-secondary uk-margin-remove">Fusion Pro 48</h3>
+                                        <div class="grad-ribbon"></div></div>
+                                    <div class="seriesHeading">
+										Industrial-Serie</div>
+                                    <div class="ep-radio">					
+                                        <input class="ep-radio-switch ep-radio-switch_yes" />
+                                        <input class="ep-radio-switch ep-radio-switch_no" />		
+                                        <label class="ep-radio-switch_label ep-radio-switch_label_yes"><span class="ep-radio-switch_txt">Ausgewählt</span></label><label class="ep-radio-switch_label ep-radio-switch_label_no"><span class="ep-radio-switch_txt">Vergleichen</span></label>
+                                    </div>	
+                                </div>
+                            </div> 
+                            <ul class="ep-features-list">
+                                <li class="epProductRow1">
+									<img decoding="async" width="400" height="300"  class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Epilog Fusion Pro 48" srcset="https://www.epiloglaser.com/assets/img/fusion-pro-48-laser.jpg 400w, https://www.epiloglaser.com/assets/img/fusion-pro-48-laser-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />								</li>
+                                <li class="epProductRow2">48 x 36 Zoll<br /><span class="uk-text-xsmall">(1219 x 914mm)</span></li>
+                                <li class="epProductRow3">12,25 Zoll (311 mm)</li>
+                                <li class="epProductRow4"><strong>CO<sub>2</sub>:</strong> luftgekühlte Waveguide-Röhre aus Metall/Keramik, 10,6 Mikrometer <br /><strong>Faser:</strong> luftgekühlt, mit Blende, 1065 nm, Strahlqualität: M2 &lt; 1,1</li>
+                                <li class="epProductRow5"><strong>CO<sub>2</sub>:</strong> 80, 100 oder 120 Watt<br /><strong>Dual Source:</strong> 100 Watt CO<sub>2</sub> und 50 Watt Faser oder 120 Watt CO<sub>2</sub> und 50 Watt Faser</li>
+                                <li class="epProductRow6">Laser Dashboard™, Epilog Job Manager™</li>
+                                <li class="epProductRow7">Speichern Sie Dateien von bis zu 1 GB Größe. Gravieren Sie Dateien jeder Größe.</li>
+                                <li class="epProductRow8">Optimierter Rastermodus, Vektormodus oder kombinierter Modus.</li>
+                                <li class="epProductRow9">2 (Überkopfkamera und Markierung) <a  class="ep-info fas fa-info-circle uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom" title="Markierung: Die zusätzliche Kamera am Objektiv erleichtert die Orientierung bei Material mit vorgedruckten Markierungen." uk-tooltip=""></a></li>
+                                <li class="epProductRow10">165 IPS/4,2 m/s</li>
+								<li class="epProductRow11">5G</li>
+                                <li class="epProductRow12">Enthalten</li>			
+                                <li class="epProductRow13">Integrierte Ethernet-, USB- und Drahtlosverbindungen</li>
+                                <li class="epProductRow14">Bürstenlose Gleichstrom-Servomotoren</li>
+                                <li class="epProductRow15">Enthalten</li>
+                                <li class="epProductRow16">Enthalten</li>
+                                <li class="epProductRow17">Enthalten</li>
+                                <li class="epProductRow18">--</li>
+                                <li class="epProductRow19">CO2/Dual - Arbeitsplattentisch</li>
+                                <li class="epProductRow20">Enthalten</li>
+                                <li class="epProductRow21">Enthalten</li>
+                                <li class="epProductRow22">Enthalten</li>
+								<li class="epProductRow23">Laserprodukt der Klasse 2 – 1 mW cW, MAX. 600-700 nm</li>
+                                <li class="epProductRow24"><a class="cta uk-button uk-button-primary" ><div><span>Mehr erfahren</span></div></a></li>
+                            </ul>
+                        </li> 
+						<li class="product ">                        
+                            <div class="top-placeHolder placeHolder uk-hidden"></div>
+                            <div id="Fusion-Galvo" class="topInfo">
+                                <div class="topInfo-Inner">
+                                    <div class="product-title-wrapper">
+										<h3 class="uk-text-uppercase uk-font-tertiary uk-text-secondary uk-margin-remove">Fusion Galvo</h3>
+                                        <div class="grad-ribbon"></div></div>
+                                    <div class="seriesHeading">
+										Markierungsmaschine für Metall</div>
+                                    <div class="ep-radio">					
+                                        <input class="ep-radio-switch ep-radio-switch_yes" />
+                                        <input class="ep-radio-switch ep-radio-switch_no" />		
+                                        <label class="ep-radio-switch_label ep-radio-switch_label_yes"><span class="ep-radio-switch_txt">Ausgewählt</span></label><label class="ep-radio-switch_label ep-radio-switch_label_no"><span class="ep-radio-switch_txt">Vergleichen</span></label>
+                                    </div>	
+                                </div>
+                            </div> 
+                            <ul class="ep-features-list">
+                                <li class="epProductRow1">
+									<img decoding="async" width="400" height="300"  class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fusion Galvo-Laser" srcset="https://www.epiloglaser.com/assets/img/fusion-galvo-laser.jpg 400w, https://www.epiloglaser.com/assets/img/fusion-galvo-laser-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />								</li>
+                                <li class="epProductRow2">Maximal 6&quot; x 6&quot;<br /><span class="uk-text-xsmall">(152 x 152 mm)</span></li>
+                                <li class="epProductRow3">F163: 254 mm F254: 152 mm</li>
+                                <li class="epProductRow4"><strong>Faser:</strong> Luftgekühlt, 1064 nm</li>
+                                <li class="epProductRow5">30-Watt-gepulste, 30-Watt-MOPA- oder 60-Watt-MOPA-Faserkonfigurationen</li>
+                                <li class="epProductRow6">Laser Dashboard™, Epilog Job Manager™</li>
+                                <li class="epProductRow7">Speichern Sie Dateien von bis zu 1 GB Größe. Gravieren Sie Dateien jeder Größe.</li>
+                                <li class="epProductRow8">Gravur und Kennzeichnung</li>
+                                <li class="epProductRow9">2 (Überkopfkamera)</li>
+                                <li class="epProductRow10">200 IPS (5,08 m/s)</li>
+								<li class="epProductRow11">--</li>
+                                <li class="epProductRow12">Enthalten</li>			
+                                <li class="epProductRow13">Integrierte Ethernet-, USB- und Drahtlosverbindungen</li>
+                                <li class="epProductRow14">--</li>
+                                <li class="epProductRow15">Enthalten</li>
+                                <li class="epProductRow16">Enthalten</li>
+                                <li class="epProductRow17">Enthalten</li>
+                                <li class="epProductRow18">--</li>
+                                <li class="epProductRow19">Steckplatine mit Gewindebohrungen auf 25 mm Abstand</li>
+                                <li class="epProductRow20">Mechanisierte Vorderklappe</li>
+                                <li class="epProductRow21">--</li>
+                                <li class="epProductRow22">Enthalten</li>
+								<li class="epProductRow23">Laserprodukt der Klasse 2 – 1 mW cW, MAX. 600-700 nm</li>
+                                <li class="epProductRow24"><a class="cta uk-button uk-button-primary" ><div><span>Mehr erfahren</span></div></a></li>
+                            </ul>
+                        </li> 
+                    </ul> 
+                </div> 
+                <ul class="ep-table-navigation">
+                    <li><a  class="prev inactive fas fa-chevron-left"></a></li>
+                    <li><a  class="next fas fa-chevron-right"></a></li>
+                </ul>
+            </div> 
+        </section>         
+    </div>
+</div>
+</div></div>
+</div>
+<div class="uk-section-default uk-section uk-section-small">
+                                <div class="uk-container">                
+                    <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+<div class="uk-width-1-1">
+                    <div class="uk-panel uk-margin"><p class="uk-text-center">Technische Daten und Produktkonfigurationen können ohne Vorankündigung geändert werden.</p></div>
+</div></div>
+                                </div>                
+</div>
+<div id="Request" class="uk-section-default uk-preserve-color uk-light">
+        <div data- data-sources="[{&quot;type&quot;:&quot;image\/webp&quot;,&quot;srcset&quot;:&quot;\/assets\/themes\/yootheme\/cache\/82\/all-you-need-is-an-epilog_cutout-BG-825a988a.webp 1920w&quot;,&quot;sizes&quot;:&quot;(max-aspect-ratio: 1920\/1080) 178vh&quot;}]" uk-img="" class="uk-background-norepeat uk-background-cover uk-background-center-center uk-section uk-section-large">    
+                                <div class="uk-container">                
+                    <div class="uk-grid tm-grid-expand uk-grid-margin" uk-grid="">
+<div class="uk-width-1-2@m">
+</div>
+<div class="uk-width-1-2@m">
+                    <div class="uk-panel uk-margin"><div class="uk-card uk-card-secondary uk-padding uk-text-center uk-grid tm-grid-expand uk-grid-column-collapse uk-child-width-1-1 uk-grid-margin">
+<div class="uk-width-1-1">
+<h2 class="uk-h1 uk-font-tertiary uk-text-secondary">        Weitere Informationen anfordern    </h2><div class="uk-panel uk-margin">Erhalten Sie Broschüren, Proben <br class="uk-visible@s" />und weitere Informationen von Ihrem Händler vor Ort.</div>
+<div class="uk-margin-medium uk-text-center">
+<a class="el-content uk-button uk-button-secondary" >
+        Kontakt    
+</a>
+</div>
+</div></div></div>
+</div></div>
+                                </div>                
+        </div>
+</div>        
+            </main>
+                        <footer>
+<div class="uk-section-muted uk-section">
+                                <div class="uk-container">                
+                    <div class="uk-grid tm-grid-expand uk-grid-margin" uk-grid="">
+<div class="uk-width-1-3@m">
+<h3>        Über Epilog Laser    </h3><div class="uk-panel uk-text-meta uk-margin">Epilog Laser ist der weltweit marktführende Hersteller von Lasergravur- und -schneidemaschinen aus den USA.</div>
+<h3 class="uk-margin-remove-top">        Newsletter    </h3><div class="uk-panel uk-text-meta uk-margin">Melden Sie sich für Informationen zu neuen Produkten und Angeboten bei unserem E-Newsletter an.</div>
+<div>
+    <form class="uk-form uk-panel js-form-newsletter" method="post" action="https://www.epiloglaser.com/de/wp-admin/admin-ajax.php?action=kernel&amp;p=theme%2Fnewsletter%2Fsubscribe&amp;hash=93a29519">
+                <div class="uk-grid-small uk-child-width-expand@s" uk-grid="">        
+                <div><input class="el-input uk-input" type="email" name="email" placeholder="E-Mail-Adresse" aria-label="Email address" required="" /></div>
+                <div class="uk-width-auto@s"><button class="el-button uk-button uk-button-primary" type="submit">Anmelden</button></div>
+                </div>        
+        <input type="hidden" name="settings" value="eyJuYW1lIjoibWFpbGNoaW1wIiwiYWZ0ZXJfc3VibWl0IjoibWVzc2FnZSIsIm1lc3NhZ2UiOiJZb3VyIHN1YnNjcmlwdGlvbiB0byBvdXIgbGlzdCBoYXMgYmVlbiBjb25maXJtZWQuXG5cblRoYW5rIHlvdSBmb3Igc3Vic2NyaWJpbmchIiwicmVkaXJlY3QiOiIiLCJjbGllbnRfaWQiOiIiLCJsaXN0X2lkIjoiMzkzOTFjYjgxNyIsImRvdWJsZV9vcHRpbiI6ZmFsc2V9" />
+        <div class="message uk-margin uk-hidden"></div>
+    </form>
+</div>
+</div>
+<div class="uk-width-1-3@m">
+<h3>        Beliebte Inhalte    </h3>
+<ul class="uk-list uk-list-large">
+                <li class="el-item">            
+        <a  class="uk-link-toggle">    
+        <div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid="">            <div class="uk-width-auto uk-link"><picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/cf/sm-aztec-min-cf1ac8d2.webp 60w" sizes="(min-width: 60px) 60px">
+<img  width="60" height="60" class="el-image uk-border-rounded" alt="" loading="lazy" />
+</source></picture></div>            <div>
+                <div class="el-content uk-panel"><span class="uk-link uk-margin-remove-last-child">Lasergravur - Außergewöhnliche Gravuren mit Lasern von Epilog </span></div>            </div>
+        </div>
+        </a>    
+        </li>                <li class="el-item">            
+        <a  class="uk-link-toggle">    
+        <div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid="">            <div class="uk-width-auto uk-link"><picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/b4/sm-chess-min-b4daaac5.webp 60w" sizes="(min-width: 60px) 60px">
+<img  width="60" height="60" class="el-image uk-border-rounded" alt="" loading="lazy" />
+</source></picture></div>            <div>
+                <div class="el-content uk-panel"><span class="uk-link uk-margin-remove-last-child">Laserschneiden - Unvergleichliche Ergebnisse beim Schneiden auf zahlreichen Materialien.</span></div>            </div>
+        </div>
+        </a>    
+        </li>                <li class="el-item">            
+        <a  class="uk-link-toggle">    
+        <div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid="">            <div class="uk-width-auto uk-link"><picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/d9/sm-barcode-min-d990cf20.webp 60w" sizes="(min-width: 60px) 60px">
+<img  width="60" height="60" class="el-image uk-border-rounded" alt="" loading="lazy" />
+</source></picture></div>            <div>
+                <div class="el-content uk-panel"><span class="uk-link uk-margin-remove-last-child">Laserbeschriftungs - Kostengünstige Kennzeichnung von Metallteilen mit Barcodes und Logos.</span></div>            </div>
+        </div>
+        </a>    
+        </li>        
+</ul>
+</div>
+<div class="uk-width-1-3@m">
+<h3>        Kontakt    </h3>
+<ul class="uk-list uk-list-primary uk-list-striped SL_swap" id="swap_footer_contact-us"><li class="el-item">        
+	<div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid=""> 
+		<div class="uk-width-auto">
+			<span class="el-image uk-text-primary" uk-icon="icon: location;"></span>
+		</div>        
+		<div>
+			<div class="el-content uk-panel"><p><strong>cameo Laser Franz Hagemann GmbH</strong><br /> Ernst-Abbe-Str. 1<br />28816 Stuhr, Deutschland</p></div>        
+		</div>
+	</div>
+</li>
+<li class="el-item">        
+	<div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid="">        
+		<div class="uk-width-auto">
+			<span class="el-image uk-text-primary" uk-icon="icon: phone;"></span>
+		</div>        
+		<div>
+			<div class="el-content uk-panel">Telefon: (0421) 80 95 60-0</div>        
+		</div>
+	</div>
+</li>
+<li class="el-item">        
+	<div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid="">        
+		<div class="uk-width-auto">
+			<span class="el-image uk-text-primary"><i class="fas fa-fax"></i></span>
+		</div>        
+		<div>
+			<div class="el-content uk-panel">Telefax: (0421) 80 95 60-25</div>        
+		</div>
+	</div>
+</li>
+<li class="el-item">        
+	<div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid="">        
+		<div class="uk-width-auto">
+			<span class="el-image uk-text-primary" uk-icon="icon: mail;"></span>
+		</div>        
+		<div>
+			<div class="el-content uk-panel"><a >Nachricht senden</a></div>        
+		</div>
+	</div>
+</li>
+<li class="el-item">        
+	<div class="uk-grid-small uk-child-width-expand uk-flex-nowrap uk-flex-middle" uk-grid="">        
+		<div class="uk-width-auto">
+			<span class="el-image uk-text-primary"><i class="fas fa-building"></i></span>
+		</div>        
+		<div>
+			<div class="el-content uk-panel"><a >Weitere Standorte</a></div>        
+		</div>
+	</div>
+</li></ul>
+</div></div>
+                                </div>                
+</div>
+<div class="uk-section-default uk-section uk-padding-remove-vertical">
+                    <div class="uk-grid tm-grid-expand uk-grid-collapse uk-child-width-1-1">
+<div class="uk-width-1-1">
+                    <div>
+</div>
+</div></div>
+</div>
+<div id="Footer" class="uk-section-primary uk-section uk-section-small" uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-slide-left-small; delay: false;">
+                                <div class="uk-container">                
+                    <div class="uk-grid tm-grid-expand uk-grid-margin" uk-grid="">
+<div class="uk-grid-item-match uk-flex-middle uk-width-1-4@s uk-width-1-5@m">
+                        <div class="uk-panel uk-width-1-1">            
+<div class="uk-margin uk-text-left@s uk-text-center" uk-scrollspy-class="">
+        <picture>
+<source type="image/webp" srcset="/assets/themes/yootheme/cache/2a/epilog-logo_white-2a8b20cc.webp 220w, /assets/themes/yootheme/cache/6f/epilog-logo_white-6f206b22.webp 283w" sizes="(min-width: 220px) 220px">
+<img  width="220" height="47" class="el-image" alt="Lasergravur- und Schneidemaschines von Epilog Laser – Logo" loading="lazy" />
+</source></picture>    
+</div>
+                        </div>            
+</div>
+<div class="uk-grid-item-match uk-flex-middle uk-width-1-2@s uk-width-3-5@m">
+                        <div class="uk-panel uk-width-1-1">            
+                    <div class="uk-panel uk-text-muted uk-margin-small uk-margin-remove-bottom uk-text-center" uk-scrollspy-class=""><p>©  Epilog Laser | Alle Rechte vorbehalten. | <a >Datenschutzrichtlinie</a> | <a >Technischer Support</a> | <a >Seitenverzeichnis</a>
+</p></div>
+                        </div>            
+</div>
+<div class="uk-grid-item-match uk-flex-middle uk-width-1-4@s uk-width-1-5@m">
+                        <div class="uk-panel uk-width-1-1">            
+<div class="uk-margin-remove-vertical uk-text-right@m uk-text-left" uk-scrollspy-class="uk-animation-slide-right-small">    <div class="uk-child-width-auto uk-grid-medium uk-flex-inline" uk-grid="">
+            <div>
+<a class="el-link uk-link-muted"  aria-label="Epilog Youtube" rel="noreferrer"><span uk-icon="icon: youtube;"></span></a></div>
+            <div>
+<a class="el-link uk-link-muted"  aria-label="Epilog Facebook" rel="noreferrer"><span uk-icon="icon: facebook;"></span></a></div>
+            <div>
+<a class="el-link uk-link-muted"  aria-label="Epilog Instagram" rel="noreferrer"><span uk-icon="icon: instagram;"></span></a></div>
+    </div></div>
+                        </div>            
+</div></div>
+                                </div>                
+</div>            </footer>
+        </div>
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 consent-banner optout cmplz-center cmplz-categories-type-no" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optout" aria-describedby="cmplz-message-1-optout">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"><img width="512" height="512"  class="attachment-cmplz_banner_image size-cmplz_banner_image" alt="Epilog Laser" decoding="async" loading="lazy" /></div>
+		<div class="cmplz-title" id="cmplz-header-1-optout">Verwalten Sie Ihre Privatsphäre</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Close dialog">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optout"><p>Wir verwenden Cookies, um die Website von Epilog für unsere Besucher zu verbessern. Cookies helfen uns dabei, ein verbessertes und personalisiertes Erlebnis für Sie und Webanalysen für uns bereitzustellen. Weitere Informationen zu den Grundsätzen und Informationen der Datenschutzrichtlinie von Epilog finden Sie in unserer <a >Datenschutzrichtlinie</a>.</p></div>
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Funktional</span>
+							<span class="cmplz-always-active">
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox" id="cmplz-functional-optout" data-category="cmplz_functional" class="cmplz-consent-checkbox cmplz-functional" size="40" value="1" />
+									<label class="cmplz-label" for="cmplz-functional-optout" tabindex="0"><span class="screen-reader-text">Funktional</span></label>
+								</span>
+								Immer aktiv							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">Die technische Speicherung oder der Zugriff ist unbedingt erforderlich für den legitimen Zweck, die Nutzung eines bestimmten, vom Abonnenten oder Benutzer ausdrücklich angeforderten Dienstes zu ermöglichen, oder für den alleinigen Zweck, eine Kommunikation über ein elektronisches Kommunikationsnetz zu übertragen.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-preferences">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Präferenzen</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-preferences-optout" data-category="cmplz_preferences" class="cmplz-consent-checkbox cmplz-preferences" size="40" value="1" />
+								<label class="cmplz-label" for="cmplz-preferences-optout" tabindex="0"><span class="screen-reader-text">Präferenzen</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">Die technische Speicherung oder der Zugriff ist für den legitimen Zweck der Speicherung von Präferenzen erforderlich, die vom Abonnenten oder Nutzer nicht angefordert werden.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-statistics">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistik</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-statistics-optout" data-category="cmplz_statistics" class="cmplz-consent-checkbox cmplz-statistics" size="40" value="1" />
+								<label class="cmplz-label" for="cmplz-statistics-optout" tabindex="0"><span class="screen-reader-text">Statistik</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">Die technische Speicherung oder der Zugriff, der ausschließlich zu statistischen Zwecken verwendet wird.</span>
+					<span class="cmplz-description-statistics-anonymous">Die technische Speicherung bzw. der Zugriff, der ausschließlich zu anonymen statistischen Zwecken verwendet wird. Ohne eine Vorladung, die freiwillige Zustimmung Ihres Internetdienstanbieters oder zusätzliche Aufzeichnungen von Dritten können die zu diesem Zweck gespeicherten oder abgerufenen Informationen allein in der Regel nicht zu Ihrer Identifizierung verwendet werden.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-marketing-optout" data-category="cmplz_marketing" class="cmplz-consent-checkbox cmplz-marketing" size="40" value="1" />
+								<label class="cmplz-label" for="cmplz-marketing-optout" tabindex="0"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">Die technische Speicherung oder der Zugriff ist erforderlich, um Nutzerprofile zu erstellen, um Werbung zu versenden oder um den Nutzer auf einer Website oder über mehrere Websites hinweg für ähnliche Marketingzwecke zu verfolgen.</span>
+				</div>
+			</details>
+		</div>
+<div class="cmplz-categories cmplz-tcf">
+	<div class="cmplz-category cmplz-statistics">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title">Statistik</div>
+			<div class="cmplz-always-active"></div>
+			<p class="cmplz-description"></p>
+		</div>
+	</div>
+	<div class="cmplz-category cmplz-marketing">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title">Marketing</div>
+			<div class="cmplz-always-active"></div>
+			<p class="cmplz-description"></p>
+		</div>
+	</div>
+	<div class="cmplz-category cmplz-features">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title">Funktionen</div>
+			<div class="cmplz-always-active">Immer aktiv</div>
+			<p class="cmplz-description"></p>
+		</div>
+	</div>
+	<div class="cmplz-category cmplz-specialfeatures">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title"></div>
+			<div class="cmplz-always-active"></div>
+		</div>
+	</div>
+	<div class="cmplz-category cmplz-specialpurposes">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title"></div>
+			<div class="cmplz-always-active">Immer aktiv</div>
+		</div>
+	</div>
+</div>
+	</div>
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement"  data-relative_url="#cmplz-manage-consent-container">Optionen verwalten</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement"  data-relative_url="#cmplz-cookies-overview">Services verwalten</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement"  data-relative_url="#cmplz-tcf-wrapper">{vendor_count} Anbieter verwalten</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" >Lesen Sie mehr über diese Zwecke</a>
+			</div>
+	<div class="cmplz-divider cmplz-footer"></div>
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Akzeptieren</button>
+		<button class="cmplz-btn cmplz-deny">Ablehnen</button>
+		<button class="cmplz-btn cmplz-view-preferences">Optionen verwalten</button>
+		<button class="cmplz-btn cmplz-save-preferences">Einstellungen speichern</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement"  data-relative_url="#cmplz-manage-consent-container">Optionen verwalten</a>
+			</div>
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement"  data-relative_url="">{title}</a>
+		<a class="cmplz-link privacy-statement"  data-relative_url="">{title}</a>
+		<a class="cmplz-link impressum"  data-relative_url="">{title}</a>
+			</div>
+</div>
+<div class="cmplz-cookiebanner cmplz-hidden banner-1 consent-banner optin cmplz-center cmplz-categories-type-no" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"><img width="512" height="512"  class="attachment-cmplz_banner_image size-cmplz_banner_image" alt="Epilog Laser" decoding="async" loading="lazy" /></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Verwalten Sie Ihre Privatsphäre</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Close dialog">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin"><p>Um das beste Erlebnis zu bieten, verwenden wir und unsere Partner Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Die Zustimmung zu diesen Technologien ermöglicht es uns und unseren Partnern, personenbezogene Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website zu verarbeiten und (nicht) personalisierte Werbung anzuzeigen. Die Nichteinwilligung oder der Widerruf der Einwilligung kann sich nachteilig auf bestimmte Merkmale und Funktionen auswirken.</p><p>Klicken Sie unten, um dem oben Gesagten zuzustimmen oder detaillierte Entscheidungen zu treffen. Ihre Auswahl wird nur auf diese Website angewendet. Sie können Ihre Einstellungen jederzeit ändern, einschließlich des Widerrufs Ihrer Zustimmung, indem Sie die Schaltflächen in der Cookie-Richtlinie verwenden oder auf die Schaltfläche „Zustimmung verwalten“ am unteren Rand des Bildschirms klicken.</p></div>
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Funktional</span>
+							<span class="cmplz-always-active">
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox" id="cmplz-functional-optin" data-category="cmplz_functional" class="cmplz-consent-checkbox cmplz-functional" size="40" value="1" />
+									<label class="cmplz-label" for="cmplz-functional-optin" tabindex="0"><span class="screen-reader-text">Funktional</span></label>
+								</span>
+								Immer aktiv							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">Die technische Speicherung oder der Zugriff ist unbedingt erforderlich für den legitimen Zweck, die Nutzung eines bestimmten, vom Abonnenten oder Benutzer ausdrücklich angeforderten Dienstes zu ermöglichen, oder für den alleinigen Zweck, eine Kommunikation über ein elektronisches Kommunikationsnetz zu übertragen.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-preferences">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Präferenzen</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-preferences-optin" data-category="cmplz_preferences" class="cmplz-consent-checkbox cmplz-preferences" size="40" value="1" />
+								<label class="cmplz-label" for="cmplz-preferences-optin" tabindex="0"><span class="screen-reader-text">Präferenzen</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">Die technische Speicherung oder der Zugriff ist für den legitimen Zweck der Speicherung von Präferenzen erforderlich, die vom Abonnenten oder Nutzer nicht angefordert werden.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-statistics">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistik</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-statistics-optin" data-category="cmplz_statistics" class="cmplz-consent-checkbox cmplz-statistics" size="40" value="1" />
+								<label class="cmplz-label" for="cmplz-statistics-optin" tabindex="0"><span class="screen-reader-text">Statistik</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">Die technische Speicherung oder der Zugriff, der ausschließlich zu statistischen Zwecken verwendet wird.</span>
+					<span class="cmplz-description-statistics-anonymous">Die technische Speicherung bzw. der Zugriff, der ausschließlich zu anonymen statistischen Zwecken verwendet wird. Ohne eine Vorladung, die freiwillige Zustimmung Ihres Internetdienstanbieters oder zusätzliche Aufzeichnungen von Dritten können die zu diesem Zweck gespeicherten oder abgerufenen Informationen allein in der Regel nicht zu Ihrer Identifizierung verwendet werden.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-marketing-optin" data-category="cmplz_marketing" class="cmplz-consent-checkbox cmplz-marketing" size="40" value="1" />
+								<label class="cmplz-label" for="cmplz-marketing-optin" tabindex="0"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">Die technische Speicherung oder der Zugriff ist erforderlich, um Nutzerprofile zu erstellen, um Werbung zu versenden oder um den Nutzer auf einer Website oder über mehrere Websites hinweg für ähnliche Marketingzwecke zu verfolgen.</span>
+				</div>
+			</details>
+		</div>
+<div class="cmplz-categories cmplz-tcf">
+	<div class="cmplz-category cmplz-statistics">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title">Statistik</div>
+			<div class="cmplz-always-active"></div>
+			<p class="cmplz-description"></p>
+		</div>
+	</div>
+	<div class="cmplz-category cmplz-marketing">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title">Marketing</div>
+			<div class="cmplz-always-active"></div>
+			<p class="cmplz-description"></p>
+		</div>
+	</div>
+	<div class="cmplz-category cmplz-features">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title">Funktionen</div>
+			<div class="cmplz-always-active">Immer aktiv</div>
+			<p class="cmplz-description"></p>
+		</div>
+	</div>
+	<div class="cmplz-category cmplz-specialfeatures">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title"></div>
+			<div class="cmplz-always-active"></div>
+		</div>
+	</div>
+	<div class="cmplz-category cmplz-specialpurposes">
+		<div class="cmplz-category-header">
+			<div class="cmplz-title"></div>
+			<div class="cmplz-always-active">Immer aktiv</div>
+		</div>
+	</div>
+</div>
+	</div>
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement"  data-relative_url="#cmplz-manage-consent-container">Optionen verwalten</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement"  data-relative_url="#cmplz-cookies-overview">Services verwalten</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement"  data-relative_url="#cmplz-tcf-wrapper">{vendor_count} Anbieter verwalten</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" >Lesen Sie mehr über diese Zwecke</a>
+			</div>
+	<div class="cmplz-divider cmplz-footer"></div>
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Akzeptieren</button>
+		<button class="cmplz-btn cmplz-deny">Ablehnen</button>
+		<button class="cmplz-btn cmplz-view-preferences">Optionen verwalten</button>
+		<button class="cmplz-btn cmplz-save-preferences">Einstellungen speichern</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement"  data-relative_url="#cmplz-manage-consent-container">Optionen verwalten</a>
+			</div>
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement"  data-relative_url="">{title}</a>
+		<a class="cmplz-link privacy-statement"  data-relative_url="">{title}</a>
+		<a class="cmplz-link impressum"  data-relative_url="">{title}</a>
+			</div>
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Einwilligung verwalten</button>
+<button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Einwilligung verwalten</button>
+</div>    </body>
+</html>
