@@ -3,12 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LaserList - Laser Machines Overview</title>
+<title>LaserList - Laser Machines Overview across Manufacturers</title>
 <style>
   body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #f4f4f4;
+  }
+  .machine-image {
+    width: 100%;
+    object-fit: contain;
+  }
+  .manufacturer-image {
+    width: 100%;
+    object-fit: contain;
   }
   header {
     background-color: #333;
@@ -98,12 +106,15 @@
   }
   .filter-section {
     text-align: center;
-    margin: 20px 0;
+    margin: 5px 0;
   }
   .filter-section input {
     padding: 10px;
     width: 20%;
-    margin-top: 20px;
+  }
+  .filter-section select {
+    padding: 10px;
+    width: 20%;
   }
   .filter-section label {
     font-size: 18px;
@@ -130,23 +141,58 @@
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
 <body>
   
     <header>
   <div class="header-content">
-    <span>LaserList</span>
+    <span>LaserList - Laser Machines Overview across Manufacturers</span>
     <!--<a href="https://twitter.com/kevreuss" target="_blank" class="feedback-button">Feedback?</a>-->
   </div>
 </header>
 
-
+<div class="filter-section">
+  <select id="manufacturerSelect">
+    <option value="">All Manufacturers</option>
+    <!-- Optionen werden hier dynamisch hinzugefügt -->
+  </select>
+</div>
+<div class="filter-section">
+  <select id="laserTypeSelect">
+    <option value="">All Laser Source Types</option>
+    <!-- Optionen werden hier dynamisch hinzugefügt -->
+  </select>
+</div>
 
 <div class="filter-section">
-  <label for="priceFilter">Filter by Maximum Price:</label>
-  <input type="number" id="priceFilter" placeholder="Enter max price in €">
+  <label>$</label>
+  <input type="number" id="minPriceFilter" placeholder="Min Price">
+  <label>$</label>
+  <input type="number" id="maxPriceFilter" placeholder="Max Price">
+</div>
+<div class="filter-section">
+  <input type="number" id="minOperatingWidthFilter" placeholder="Min Operating Width">
+  <label>mm</label>
+  <input type="number" id="maxOperatingWidthFilter" placeholder="Max Operating Width">
+  <label>mm</label>
+</div>
+<div class="filter-section">
+  <input type="number" id="minOperatingHeightFilter" placeholder="Min Operating Height">
+  <label>mm</label>
+  <input type="number" id="maxOperatingHeightFilter" placeholder="Max Operating Height">
+  <label>mm</label>
+</div>
+<div class="filter-section">
+  <input type="number" id="minPowerInWFilter" placeholder="Min Power">
+  <label>W</label>
+  <input type="number" id="maxPowerInWFilter" placeholder="Max Power">
+  <label>W</label>
+</div>
+<div class="filter-section">
   <button class="filter-button" onclick="filterMachines()">Filter</button>
 </div>
+
 <div class="container" id="laserContainer">
   <!-- Cards will be inserted here -->
 </div>
@@ -157,7 +203,6 @@
     <a href="https://forms.gle/TQKfFbRU5YnbDPK7A" target="_blank" class="subscribe-button">Sign Up for Updates</a>
 </div>
 
-
 <div id="legalSection" style="display: flex; flex-direction: column; padding: 20px; background-color: #333; align-items: end;">
   <button id="toggleLegalText" style="border:none; background-color: #333; color: white">Legal Information</button>
   <div id="legalText" style="display: none;">
@@ -167,220 +212,35 @@
   </div>
 </div>
 
-
-
 <script>
-  const laserMachines = [
-  {
-    "manufacturer": "Glowforge",
-    "model": "Plus",
-    "image": "https://i.ebayimg.com/images/g/ufsAAOSwk4BheaV7/s-l1200.jpg",
-    "type": "cutter/engraver",
-    "power": "40W",
-    "cuttingArea": "280mm x 495mm",
-    "materials": ["Wood", "Acrylic", "Leather"],
-    "priceRange": "€2500 - €3500",
-    "website": "https://glowforge.com"
-  },
-  {
-    "manufacturer": "Trotec",
-    "model": "Speedy 300",
-    "image": "https://static.treatstock.com/static/fxd/wikiMachines/Trotec-Speedy-300/photo/trotec-speedy-300-laser-cutter.jpg?date=1595002570",
-    "type": "cutter/engraver",
-    "power": "80W",
-    "cuttingArea": "726mm x 432mm",
-    "materials": ["Acrylic", "Glass", "Textiles"],
-    "priceRange": "€10000 - €20000",
-    "website": "https://www.troteclaser.com"
-  },
-  {
-    "manufacturer": "Epilog",
-    "model": "Fusion Pro 32",
-    "image": "https://www.igepasystems.de/media/cf/74/b5/1595831441/IGEPA-Epilog-FusionPro32.jpg",
-    "type": "cutter/engraver",
-    "power": "50W - 120W",
-    "cuttingArea": "812mm x 508mm",
-    "materials": ["Wood", "Acrylic", "Rubber", "Glass"],
-    "priceRange": "€15000 - €30000",
-    "website": "https://www.epiloglaser.com"
-  },
-  {
-    "manufacturer": "Universal Laser Systems",
-    "model": "VLS6.60",
-    "image": "https://www.engraversnetwork.com/wp-content/uploads/vls460-2.jpg",
-    "type": "cutter/engraver",
-    "power": "60W",
-    "cuttingArea": "813mm x 457mm",
-    "materials": ["Paper", "Plastic", "Fabric", "Leather"],
-    "priceRange": "€20000 - €30000",
-    "website": "https://www.ulsinc.com"
-  },
-  {
-    "manufacturer": "Mr Beam",
-    "model": "Mr Beam II dreamcut S",
-    "image": "https://www.mr-beam.org/cdn/shop/products/mr-beam-zwei-dreamcut-s_4c93db52-5585-427c-9f7c-45f8c229455a-removebg.png?v=1633596781&width=1445",
-    "type": "cutter/engraver",
-    "power": "5W",
-    "cuttingArea": "500mm x 390mm",
-    "materials": ["Wood", "Acrylic", "Felt", "Fabric"],
-    "priceRange": "€3000 - €4000",
-    "website": "https://www.mr-beam.org"
-  },
-  {
-    "manufacturer": "Darkly Labs",
-    "model": "Emblaser 2",
-    "image": "https://m.media-amazon.com/images/I/71V2L1+wMIL._AC_UF1000,1000_QL80_.jpg",
-    "type": "cutter/engraver",
-    "power": "5W",
-    "cuttingArea": "500mm x 300mm",
-    "materials": ["Wood", "Leather", "Acrylic", "Fabric"],
-    "priceRange": "€2000 - €3000",
-    "website": "https://darklylabs.com"
-  },
-  {
-  "manufacturer": "FLUX",
-  "model": "Beambox Pro",
-  "image": "https://botland.de/img/art/inne/18813_2.jpg", // Ersetze diesen Platzhalter durch das echte Bild
-  "type": "cutter/engraver",
-  "power": "50W",
-  "cuttingArea": "600mm x 375mm",
-  "materials": ["Wood", "Acrylic", "Fabric", "Leather"],
-  "priceRange": "€4000 - €5000",
-  "website": "https://flux3dp.com"
-},
-{
-  "manufacturer": "Makeblock",
-  "model": "xTool D1",
-  "image": "https://img.gkbcdn.com/s3/p/2022-02-17/Makeblock-xTool-D1-Laser-Engraving-Machine-496686-0.jpg", // Ersetze diesen Platzhalter durch das echte Bild
-  "type": "engraver",
-  "power": "10W",
-  "cuttingArea": "432mm x 406mm",
-  "materials": ["Wood", "Acrylic", "Leather", "Paper"],
-  "priceRange": "€500 - €1000",
-  "website": "https://xtool.com"
-},
-{
-  "manufacturer": "Snapmaker",
-  "model": "2.0 A350",
-  "image": "https://3d.nice-cdn.com/upload/image/product/large/default/snapmaker-20-inkl-gehaeuse-a350t-410900-de.jpg", // Ersetze diesen Platzhalter durch das echte Bild
-  "type": "cutter/engraver",
-  "power": "1.6W",
-  "cuttingArea": "320mm x 350mm",
-  "materials": ["Wood", "Bamboo", "Leather", "Fabric"],
-  "priceRange": "€1200 - €1300",
-  "website": "https://snapmaker.com"
-},
-{
-  "manufacturer": "Full Spectrum Laser",
-  "model": "Muse Core",
-  "image": "https://cdn11.bigcommerce.com/s-8p1uzl4cj9/images/stencil/1280x1280/products/112/1494/CORE_front_open_june_2022__95872__25072.1678747039.jpg?c=1", // Ersetze diesen Platzhalter durch das echte Bild
-  "type": "cutter/engraver",
-  "power": "40W",
-  "cuttingArea": "500mm x 300mm",
-  "materials": ["Wood", "Acrylic", "Leather", "Fabric"],
-  "priceRange": "€3000 - €4000",
-  "website": "https://fslaser.com"
-},
-{
-  "manufacturer": "Boss Laser",
-  "model": "LS-1416",
-  "image": "https://bosslaser.com/wp-content/uploads/co2-laser-cutter-engraver-boss-ls-1416-mi.jpg", // Ersetze diesen Platzhalter durch das echte Bild
-  "type": "cutter/engraver",
-  "power": "50W",
-  "cuttingArea": "355mm x 406mm",
-  "materials": ["Wood", "Acrylic", "Glass", "Leather"],
-  "priceRange": "€4000 - €5000",
-  "website": "https://bosslaser.com"
-},
-{
-  "manufacturer": "Glowforge",
-  "model": "Pro",
-  "image": "https://shop.glowforge.com/cdn/shop/files/GlowforgePro-01.jpg?v=1697047645&width=1696", // Ersetze diesen Platzhalter durch das echte Bild
-  "type": "cutter/engraver",
-  "power": "45W",
-  "cuttingArea": "279mm x 495mm",
-  "materials": ["Wood", "Acrylic", "Leather", "Fabric"],
-  "priceRange": "€5000 - €6000",
-  "website": "https://glowforge.com"
-},
-{
-  "manufacturer": "Trotec",
-  "model": "Speedy 400",
-  "image": "https://cdn.pressebox.de/r/883410852f23f34e/attachments/10/37/59/thumbnail_1037595_552x345.jpg", // Ersetze diesen Platzhalter durch das echte Bild
-  "type": "cutter/engraver",
-  "power": "120W",
-  "cuttingArea": "1000mm x 610mm",
-  "materials": ["Acrylic", "Glass", "Wood", "Textiles"],
-  "priceRange": "€15000 - €25000",
-  "website": "https://www.troteclaser.com"
-},
-{
-  "manufacturer": "Epilog",
-  "model": "Zing 24",
-  "image": "https://www.igepasystems.de/media/a7/0d/e2/1595832839/IGEPA-Epilog-Zing24.jpg", // Ersetze diesen Platzhalter durch das echte Bild
-  "type": "cutter/engraver",
-  "power": "40W - 60W",
-  "cuttingArea": "610mm x 305mm",
-  "materials": ["Wood", "Acrylic", "Glass", "Stone"],
-  "priceRange": "€8000 - €12000",
-  "website": "https://www.epiloglaser.com"
-},
-{
-  "manufacturer": "Universal Laser Systems",
-  "model": "PLS6.75",
-  "image": "https://img.directindustry.de/images_di/photo-g/14769-2421403.jpg", // Ersetze diesen Platzhalter durch das echte Bild
-  "type": "cutter/engraver",
-  "power": "75W",
-  "cuttingArea": "813mm x 457mm",
-  "materials": ["Paper", "Plastic", "Wood", "Leather"],
-  "priceRange": "€25000 - €35000",
-  "website": "https://www.ulsinc.com"
-},
-{
-  "manufacturer": "Darkly Labs",
-  "model": "Emblaser Core",
-  "image": "https://darklylabs.com/wp-content/uploads/2019/01/EC-quarter_sml-1024x683.jpg", // Ersetze diesen Platzhalter durch das echte Bild
-  "type": "cutter/engraver",
-  "power": "5W",
-  "cuttingArea": "500mm x 300mm",
-  "materials": ["Wood", "Leather", "Acrylic"],
-  "priceRange": "€1000 - €2000",
-  "website": "https://darklylabs.com"
-},
-{
-  "manufacturer": "Trotec",
-  "model": "Rayjet 50",
-  "image": "https://www.megaflex.cz/lasery/files/2015/03/RayJet_15a.jpg",
-  "type": "cutter/engraver",
-  "power": "30W",
-  "cuttingArea": "726mm x 432mm",
-  "materials": ["Paper", "Plastic", "Wood"],
-  "priceRange": "€8000 - €9000",
-  "website": "https://www.troteclaser.com"
-},
-{
-  "manufacturer": "Epilog",
-  "model": "Mini 18",
-  "image": "https://www.igepasystems.de/media/84/43/c8/1619181026/IGEPA_epilog_mini_right.jpg",
-  "type": "cutter/engraver",
-  "power": "30W - 40W",
-  "cuttingArea": "457mm x 305mm",
-  "materials": ["Wood", "Acrylic", "Glass", "Stone"],
-  "priceRange": "€10000 - €12000",
-  "website": "https://www.epiloglaser.com"
-},
-{
-  "manufacturer": "Universal Laser Systems",
-  "model": "VLS3.50",
-  "image": "https://cdn.ulsinc.com/assets/images/products/vls/56e0530bd647915f198b4570/vls350_frma_800.jpg",
-  "type": "cutter/engraver",
-  "power": "50W",
-  "cuttingArea": "610mm x 305mm",
-  "materials": ["Paper", "Plastic", "Fabric"],
-  "priceRange": "€15000 - €17000",
-  "website": "https://www.ulsinc.com"
-},
-  ];
+  let laserMachines = [];
+
+  function populateSelectOptions(machines, key, selectId) {
+  let options = machines.map(machine => machine[key])
+                .filter((value, index, self) => self.indexOf(value) === index);
+  
+  const selectElement = document.getElementById(selectId);
+  options.forEach(option => {
+    const optElement = document.createElement('option');
+    optElement.value = option;
+    optElement.textContent = option;
+    selectElement.appendChild(optElement);
+  });
+}
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSaVhVavbtbNlv1MlgisjcqpxBckjufqXkmpiPj6nHmiAAfNyOGiCg50506F1anuJ0ABeIlylj2nZXL/pub?gid=0&single=true&output=csv'; // Ersetze dies mit der URL deines veröffentlichten CSV
+    fetch(sheetUrl)
+      .then(response => response.text())
+      .then(csvText => Papa.parse(csvText, {header: true, skipEmptyLines: true}))
+      .then(data => {
+        laserMachines = data.data
+        populateSelectOptions(laserMachines, 'manufacturer', 'manufacturerSelect');
+        populateSelectOptions(laserMachines, 'laserType', 'laserTypeSelect');
+        displayMachines(laserMachines);
+      })
+      .catch(error => console.error('Fehler beim Laden der Daten:', error));
+  });
 
   document.getElementById('toggleLegalText').addEventListener('click', function() {
     var legalText = document.getElementById('legalText');
@@ -394,16 +254,17 @@
   function generateCard(machine) {
     return `
       <div class="card">
-        <img src="${machine.image}" alt="${machine.model}">
+        <img style="object-fit: contain;" class="machine-image" src="${machine.modelImageUrl}" alt="${machine.model}">
+        <img style="object-fit: contain;" class="manufacturer-image" src="${machine.manufacturerImageUrl}" alt="${machine.manufacturer}">
         <div class="card-content">
           <h2 class="card-title">${machine.manufacturer} - ${machine.model}</h2>
           <div class="card-body">
-            <p>Type: ${machine.type}</p>
-            <p>Power: ${machine.power}</p>
-            <p>Cutting Area: ${machine.cuttingArea}</p>
-            <p>Materials: ${machine.materials.join(', ')}</p>
-            <p>Price Range: ${machine.priceRange}</p>
-            <p><a href="${machine.website}" target="_blank">Product Page</a></p>
+            <p>Power: ${machine.powerInW}W</p>
+            <p>Laser Source Type: ${machine.laserType}</p>
+            <p>Operating Width: ${machine.operatingWidthInMm}mm</p>
+            <p>Operating Height: ${machine.operatingHeightInMm}mm</p>
+            <p>Price: $${machine.priceInDollars}</p>
+            <p><a href="${machine.furtherInformationUrl}" target="_blank">Further Information</a></p>
           </div>
         </div>
       </div>
@@ -411,6 +272,7 @@
   }
 
   function sortMachines(machines) {
+    return machines;
   return machines.sort((a, b) => {
     if (a.manufacturer < b.manufacturer) return -1;
     if (a.manufacturer > b.manufacturer) return 1;
@@ -431,12 +293,27 @@ function displayMachines(machines) {
 }
 
   function filterMachines() {
-    const maxPrice = document.getElementById('priceFilter').value;
-    if (maxPrice === '') return displayMachines(laserMachines);
+    const manufacturer = document.getElementById('manufacturerSelect').value;
+    const laserType = document.getElementById('laserTypeSelect').value;
+    const minPrice = document.getElementById('minPriceFilter').value;
+    const maxPrice = document.getElementById('maxPriceFilter').value;
+    const minOperatingWidth = document.getElementById('minOperatingWidthFilter').value;
+    const maxOperatingWidth = document.getElementById('maxOperatingWidthFilter').value;
+    const minOperatingHeight = document.getElementById('minOperatingHeightFilter').value;
+    const maxOperatingHeight = document.getElementById('maxOperatingHeightFilter').value;
+    const minPowerInW = document.getElementById('minPowerInWFilter').value;
+    const maxPowerInW = document.getElementById('maxPowerInWFilter').value;
+
     const filteredMachines = laserMachines.filter(machine => {
-      const priceRange = machine.priceRange.replaceAll('€', '').split(' - ').map(Number);
-      return priceRange[1] <= maxPrice;
+      const manufacturerFits = manufacturer === '' || machine.manufacturer === manufacturer;
+      const laserTypeFits = laserType === '' || machine.laserType === laserType;
+      const priceFits = (minPrice === '' || parseInt(machine.priceInDollars) >= parseInt(minPrice)) && (maxPrice === '' || parseInt(machine.priceInDollars) <= parseInt(maxPrice));
+      const operatingWidthFits = (minOperatingWidth === '' || parseInt(machine.operatingWidthInMm) >= parseInt(minOperatingWidth)) && (maxOperatingWidth === '' || parseInt(machine.operatingWidthInMm) <= parseInt(maxOperatingWidth));
+      const operatingHeightFits = (minOperatingHeight === '' || parseInt(machine.operatingHeightInMm) >= parseInt(minOperatingHeight)) && (maxOperatingHeight === '' || parseInt(machine.operatingHeightInMm) <= parseInt(maxOperatingHeight));
+      const powerInWFits = (minPowerInW === '' || parseInt(machine.powerInW) >= parseInt(minPowerInW)) && (maxPowerInW === '' || parseInt(machine.powerInW) <= parseInt(maxPowerInW));
+      return manufacturerFits && laserTypeFits && priceFits && operatingWidthFits && operatingHeightFits && powerInWFits;
     });
+
     displayMachines(filteredMachines);
   }
 
@@ -447,3 +324,4 @@ function displayMachines(machines) {
 
 </body>
 </html
+
