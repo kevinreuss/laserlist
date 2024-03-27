@@ -247,7 +247,7 @@
   <input type="number" id="maxPowerInWFilter" placeholder="Max Power in W">
 </div>
 <div class="filter-section">
-  <button id="openFilterSection" class="filter-button" onclick="filterMachines()">Apply Filter</button>
+  <button id="openFilterSection" class="filter-button" onclick="applyFilter()">Apply Filter</button>
 </div>
 </div>
 </header>
@@ -285,6 +285,16 @@
 
 <script>
   let laserMachines = [];
+
+  function applyFilter() {
+    filterMachines();
+    var filterSection = document.getElementById('filterSection');
+    if (filterSection.style.display === 'none') {
+      filterSection.style.display = 'block';
+    } else {
+      filterSection.style.display = 'none';
+    }
+  }
 
   function populateSelectOptions(machines, key, selectId) {
   let options = machines.map(machine => machine[key])
@@ -405,12 +415,6 @@ function displayMachines(machines) {
     });
 
     displayMachines(filteredMachines);
-    var filterSection = document.getElementById('filterSection');
-    if (filterSection.style.display === 'none') {
-      filterSection.style.display = 'block';
-    } else {
-      filterSection.style.display = 'none';
-    }
   }
 
   document.addEventListener('DOMContentLoaded', () => {
