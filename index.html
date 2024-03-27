@@ -5,6 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>LaserList - Laser Machines Overview across Manufacturers</title>
 <style>
+  input[type="number"], select {
+  border: 2px solid #333; /* Stärkere Border im Einklang mit dem Button-Stil */
+  padding: 10px; /* Mehr Padding für bessere Lesbarkeit */
+  width: calc(100% - 24px); /* Anpassung der Breite unter Berücksichtigung von Padding und Border */
+  border-radius: 5px; /* Abgerundete Ecken wie die Buttons */
+  font-size: 16px; /* Größere Schrift für bessere Lesbarkeit */
+  margin: 5px 0; /* Etwas Abstand zwischen den Elementen */
+  box-sizing: border-box; /* Stellt sicher, dass Padding und Border innerhalb der angegebenen Breite enthalten sind */
+}
+
+/* Anpassungen für Mobilgeräte */
+@media (max-width: 768px) {
+  .filter-section input, 
+  .filter-section select {
+    width: 100%; /* Volle Breite in der mobilen Ansicht */
+  }
+  .filter-section {
+    padding: 0 10px; /* Etwas Padding an den Seiten im mobilen Layout */
+  }
+}
   body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -15,39 +35,28 @@
     object-fit: contain;
   }
   .manufacturer-image {
-    width: 100%;
+    width: 50%!important;
     object-fit: contain;
   }
+  
   header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-
-  .feedback-button {
-  position: absolute;
-  right: 0;
-  background-color: #1DA1F2; /* Twitter Blau */
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  margin-right: 20px;
-}
-
-.feedback-button:hover {
-  background-color: #1991D2; /* Dunkleres Blau für Hover Effekt */
+  background-color: #1DA1F2;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: -webkit-sticky; /* Für Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Stellt sicher, dass der Header über anderen Inhalten bleibt */
 }
 
  .subscribe-button {
-  background-color: #2600ff; /* Twitter Blau */
+  background-color: #d21919; /* Twitter Blau */
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -56,9 +65,29 @@
   margin-top: 20px;
 }
 
-.subscribe-button:hover {
-  background-color: #2600ff98; /* Dunkleres Blau für Hover Effekt */
+.subscribe-button-header {
+  background-color: #d21919; /* Twitter Blau */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
 }
+
+
+
+
+
+.more-info-button {
+  background-color: white; /* Twitter Blau */
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #333;
+  font-size: 16px;
+}
+
 
 
 .filter-button {
@@ -68,11 +97,9 @@
   text-decoration: none;
   border-radius: 5px;
   font-size: 16px;
+  border: none;
 }
 
-.filter-button:hover {
-  background-color: #000 /* Dunkleres Blau für Hover Effekt */
-}
 
   .container {
     display: flex;
@@ -87,14 +114,15 @@
     border-radius: 8px;
     overflow: hidden;
     width: 300px;
+    text-align: center;
   }
   .card img {
     width: 100%;
-    height: 200px;
     object-fit: cover;
   }
   .card-content {
     padding: 20px;
+    text-align: left;
   }
   .card-title {
     margin: 0;
@@ -103,6 +131,11 @@
   }
   .card-body {
     margin-top: 10px;
+  }
+  .laser-info {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
   }
   .filter-section {
     text-align: center;
@@ -129,6 +162,12 @@
     background-color: #1DA1F2;
     color:#f4f4f4
   }
+  .header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 </style>
 <!-- Hotjar Tracking Code for https://kevinreuss.github.io/laserlist/ -->
 <script>
@@ -147,7 +186,8 @@
   
     <header>
   <div class="header-content">
-    <span>LaserList - Laser Machines Overview across Manufacturers</span>
+    <span>LaserList</span>
+    <a href="https://forms.gle/TQKfFbRU5YnbDPK7A" target="_blank" class="subscribe-button-header">Subscribe</a>
     <!--<a href="https://twitter.com/kevreuss" target="_blank" class="feedback-button">Feedback?</a>-->
   </div>
 </header>
@@ -197,11 +237,13 @@
   <!-- Cards will be inserted here -->
 </div>
 
-<div class="update-section">
-    <h1>Join LaserList</h1>
-    <p style="text-align: center; font-size: larger;">Stay Ahead of the Curve with the Latest in Laser Technology!</p>
-    <a href="https://forms.gle/TQKfFbRU5YnbDPK7A" target="_blank" class="subscribe-button">Join</a>
-</div>
+<section id="join">
+  <div class="update-section">
+      <h1>Subscribe to LaserList</h1>
+      <p style="text-align: center; font-size: larger;">Stay Ahead of the Curve with the Latest in Laser Technology!</p>
+      <a href="https://forms.gle/TQKfFbRU5YnbDPK7A" target="_blank" class="subscribe-button">Subscribe</a>
+  </div>
+</section>
 
 <div id="legalSection" style="display: flex; flex-direction: column; padding: 20px; background-color: #333; align-items: end;">
   <button id="toggleLegalText" style="border:none; background-color: #333; color: white">Legal Information</button>
@@ -259,12 +301,12 @@
         <div class="card-content">
           <h2 class="card-title">${machine.manufacturer} - ${machine.model}</h2>
           <div class="card-body">
-            <p>Power: ${machine.powerInW}W</p>
-            <p>Laser Source Type: ${machine.laserType}</p>
-            <p>Operating Width: ${machine.operatingWidthInMm}mm</p>
-            <p>Operating Height: ${machine.operatingHeightInMm}mm</p>
-            <p>Price: $${machine.priceInDollars}</p>
-            <p><a href="${machine.furtherInformationUrl}" target="_blank">Further Information</a></p>
+            <p class="laser-info">Power: <b>${machine.powerInW}W</b></p>
+            <p class="laser-info">Laser Source Type: <b>${machine.laserType}</b></p>
+            <p class="laser-info">Operating Width: <b>${machine.operatingWidthInMm}mm</b></p>
+            <p class="laser-info">Operating Height: <b>${machine.operatingHeightInMm}mm</b></p>
+            <p class="laser-info" style="margin-bottom: 20px">Price: <b>$${machine.priceInDollars}</b></p>
+            <p><a href="${machine.furtherInformationUrl}" target="_blank" class="more-info-button">Further Information</a></p>
           </div>
         </div>
       </div>
