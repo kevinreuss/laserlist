@@ -333,10 +333,10 @@
 
   document.getElementById('openFilterSection').addEventListener('click', function() {
     var filterSection = document.getElementById('filterSection');
-    if (filterSection.style.display === 'none') {
-      filterSection.style.display = 'block';
-    } else {
+    if (filterSection.style.display === 'block') {
       filterSection.style.display = 'none';
+    } else {
+      filterSection.style.display = 'block';
     }
   });
 
