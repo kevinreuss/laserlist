@@ -169,6 +169,29 @@
     align-items: center;
     justify-content: space-between;
   }
+  .spinner {
+  border: 4px solid rgba(0,0,0,.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #09f;
+  animation: spin 1s infinite linear;
+}
+
+#loadingSpinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 </style>
 <!-- Hotjar Tracking Code for https://kevinreuss.github.io/laserlist/ -->
 <script>
@@ -231,9 +254,15 @@
 
 
 
-
+<div id="loadingSpinner" style="display: none;">
+  <p>Loading Machines...</p>
+  <!-- Hier können Sie ein Spinner-Image einfügen oder einen reinen CSS-Spinner verwenden -->
+  <div class="spinner"></div>
+</div>
 
 <div class="container" id="laserContainer">
+  
+
   <!-- Cards will be inserted here -->
 </div>
 
@@ -271,6 +300,9 @@
 }
 
   document.addEventListener('DOMContentLoaded', function() {
+    // Spinner anzeigen
+    document.getElementById('loadingSpinner').style.display = 'flex';
+
     const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSaVhVavbtbNlv1MlgisjcqpxBckjufqXkmpiPj6nHmiAAfNyOGiCg50506F1anuJ0ABeIlylj2nZXL/pub?gid=0&single=true&output=csv'; // Ersetze dies mit der URL deines veröffentlichten CSV
     fetch(sheetUrl)
       .then(response => response.text())
@@ -280,8 +312,14 @@
         populateSelectOptions(laserMachines, 'manufacturer', 'manufacturerSelect');
         populateSelectOptions(laserMachines, 'laserType', 'laserTypeSelect');
         displayMachines(laserMachines);
+        // Spinner ausblenden
+        document.getElementById('loadingSpinner').style.display = 'none';
       })
-      .catch(error => console.error('Fehler beim Laden der Daten:', error));
+      .catch(error => {
+        console.error('Fehler beim Laden der Daten:', error)
+        // Spinner ausblenden
+        document.getElementById('loadingSpinner').style.display = 'none';
+    });
   });
 
   document.getElementById('toggleLegalText').addEventListener('click', function() {
