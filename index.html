@@ -137,17 +137,18 @@
     padding: 0px;
     margin-top: 5px;
   }
+  .filter {
+    display: none;
+  }
   .filter-section {
     text-align: center;
     margin: 5px 0;
   }
   .filter-section input {
     padding: 10px;
-    width: 20%;
   }
   .filter-section select {
     padding: 10px;
-    width: 20%;
   }
   .filter-section label {
     font-size: 18px;
@@ -186,13 +187,14 @@
   
     <header>
   <div class="header-content">
+  <button id="openFilterSection" class="filter-button">Filter</button>
     <span>LaserList</span>
     <a href="https://forms.gle/TQKfFbRU5YnbDPK7A" target="_blank" class="subscribe-button-header">Subscribe</a>
     <!--<a href="https://twitter.com/kevreuss" target="_blank" class="feedback-button">Feedback?</a>-->
   </div>
-</header>
+  <div id="filterSection" class="filter">
 
-<div class="filter-section">
+  <div class="filter-section">
   <select id="manufacturerSelect">
     <option value="">All Manufacturers</option>
     <!-- Optionen werden hier dynamisch hinzugefügt -->
@@ -206,32 +208,30 @@
 </div>
 
 <div class="filter-section">
-  <label>$</label>
-  <input type="number" id="minPriceFilter" placeholder="Min Price">
-  <label>$</label>
-  <input type="number" id="maxPriceFilter" placeholder="Max Price">
+  <input type="number" id="minPriceFilter" placeholder="Min Price in $">
+  <input type="number" id="maxPriceFilter" placeholder="Max Price in $">
 </div>
 <div class="filter-section">
-  <input type="number" id="minOperatingWidthFilter" placeholder="Min Operating Width">
-  <label>mm</label>
-  <input type="number" id="maxOperatingWidthFilter" placeholder="Max Operating Width">
-  <label>mm</label>
+  <input type="number" id="minOperatingWidthFilter" placeholder="Min Operating Width in mm">
+  <input type="number" id="maxOperatingWidthFilter" placeholder="Max Operating Width in mm">
 </div>
 <div class="filter-section">
-  <input type="number" id="minOperatingHeightFilter" placeholder="Min Operating Height">
-  <label>mm</label>
-  <input type="number" id="maxOperatingHeightFilter" placeholder="Max Operating Height">
-  <label>mm</label>
+  <input type="number" id="minOperatingHeightFilter" placeholder="Min Operating Height in mm">
+  <input type="number" id="maxOperatingHeightFilter" placeholder="Max Operating Height in mm">
 </div>
 <div class="filter-section">
-  <input type="number" id="minPowerInWFilter" placeholder="Min Power">
-  <label>W</label>
-  <input type="number" id="maxPowerInWFilter" placeholder="Max Power">
-  <label>W</label>
+  <input type="number" id="minPowerInWFilter" placeholder="Min Power in W">
+  <input type="number" id="maxPowerInWFilter" placeholder="Max Power in W">
 </div>
 <div class="filter-section">
-  <button class="filter-button" onclick="filterMachines()">Filter</button>
+  <button id="openFilterSection" class="filter-button" onclick="filterMachines()">Apply Filter</button>
 </div>
+</div>
+</header>
+
+
+
+
 
 <div class="container" id="laserContainer">
   <!-- Cards will be inserted here -->
@@ -292,6 +292,16 @@
       legalText.style.display = 'none';
     }
   });
+
+  document.getElementById('openFilterSection').addEventListener('click', function() {
+    var filterSection = document.getElementById('filterSection');
+    if (filterSection.style.display === 'none') {
+      filterSection.style.display = 'block';
+    } else {
+      filterSection.style.display = 'none';
+    }
+  });
+
 
   function generateCard(machine) {
     return `
@@ -357,6 +367,12 @@ function displayMachines(machines) {
     });
 
     displayMachines(filteredMachines);
+    var filterSection = document.getElementById('filterSection');
+    if (filterSection.style.display === 'none') {
+      filterSection.style.display = 'block';
+    } else {
+      filterSection.style.display = 'none';
+    }
   }
 
   document.addEventListener('DOMContentLoaded', () => {
