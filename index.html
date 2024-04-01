@@ -100,6 +100,16 @@
   border: none;
 }
 
+.feedback-button {
+  background-color: #ffffff; /* Twitter Blau */
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+}
+
 
   .container {
     display: flex;
@@ -115,19 +125,27 @@
     overflow: hidden;
     width: 300px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .card img {
     width: 100%;
     object-fit: cover;
   }
   .card-content {
-    padding: 20px;
-    text-align: left;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
   }
   .card-title {
     margin: 0;
     padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #eee;
   }
   .card-body {
     margin-top: 10px;
@@ -210,7 +228,8 @@
   
     <header>
   <div class="header-content">
-  <button id="openFilterSection" class="filter-button">Filter</button>
+  <!--<button id="openFilterSection" class="filter-button">Filter</button>-->
+  <a href="mailto:kevreuss@gmail.com" target="_blank" class="feedback-button">Feedback?</a>
     <span>LaserList</span>
     <a href="https://forms.gle/TQKfFbRU5YnbDPK7A" target="_blank" class="subscribe-button-header">Subscribe</a>
     <!--<a href="https://twitter.com/kevreuss" target="_blank" class="feedback-button">Feedback?</a>-->
@@ -260,6 +279,8 @@
   <div class="spinner"></div>
 </div>
 
+<div class="container" style="padding-bottom: 0px!important" id="containerLength"></div>
+
 <div class="container" id="laserContainer">
   
 
@@ -268,8 +289,6 @@
 
 <section id="join">
   <div class="update-section">
-      <h1>Subscribe to LaserList</h1>
-      <p style="text-align: center; font-size: larger;">Stay Ahead of the Curve with the Latest in Laser Technology!</p>
       <a href="https://forms.gle/TQKfFbRU5YnbDPK7A" target="_blank" class="subscribe-button">Subscribe</a>
   </div>
 </section>
@@ -277,9 +296,16 @@
 <div id="legalSection" style="display: flex; flex-direction: column; padding: 20px; background-color: #333; align-items: end;">
   <button id="toggleLegalText" style="border:none; background-color: #333; color: white">Legal Information</button>
   <div id="legalText" style="display: none;">
+    <a style="color: white" href="https://icons8.com/icon/2311/laser">Laser</a> icon by <a style="color: white" href="https://icons8.com">Icons8</a>
+    </br>
+    <a style="color: white" href="https://icons8.com/icon/1419/oberfläche">Oberfläche</a> icon by <a style="color: white" href="https://icons8.com">Icons8</a>
+    </br>
+    <a style="color: white" href="https://icons8.com/icon/202/banknoten">Banknoten</a> icon by <a style="color: white" href="https://icons8.com">Icons8</a>
+    </br>
     <p style="color:white">
     THE INFORMATION CONTAINED IN THIS WEBSITE IS FOR GENERAL INFORMATION PURPOSES ONLY. THE INFORMATION IS PROVIDED BY LASER LIST AND WHILE WE ENDEAVOUR TO KEEP THE INFORMATION UP TO DATE AND CORRECT, WE MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, ABOUT THE COMPLETENESS, ACCURACY, RELIABILITY, SUITABILITY OR AVAILABILITY WITH RESPECT TO THE WEBSITE OR THE INFORMATION, PRODUCTS, SERVICES, OR RELATED GRAPHICS CONTAINED ON THE WEBSITE FOR ANY PURPOSE. ANY RELIANCE YOU PLACE ON SUCH INFORMATION IS THEREFORE STRICTLY AT YOUR OWN RISK. IN NO EVENT WILL WE BE LIABLE FOR ANY LOSS OR DAMAGE INCLUDING WITHOUT LIMITATION, INDIRECT OR CONSEQUENTIAL LOSS OR DAMAGE, OR ANY LOSS OR DAMAGE WHATSOEVER ARISING FROM LOSS OF DATA OR PROFITS ARISING OUT OF, OR IN CONNECTION WITH, THE USE OF THIS WEBSITE. THROUGH THIS WEBSITE YOU ARE ABLE TO LINK TO OTHER WEBSITES WHICH ARE NOT UNDER THE CONTROL OF LASER LIST. WE HAVE NO CONTROL OVER THE NATURE, CONTENT AND AVAILABILITY OF THOSE SITES. THE INCLUSION OF ANY LINKS DOES NOT NECESSARILY IMPLY A RECOMMENDATION OR ENDORSE THE VIEWS EXPRESSED WITHIN THEM. EVERY EFFORT IS MADE TO KEEP THE WEBSITE UP AND RUNNING SMOOTHLY. HOWEVER, LASER LIST TAKES NO RESPONSIBILITY FOR, AND WILL NOT BE LIABLE FOR, THE WEBSITE BEING TEMPORARILY UNAVAILABLE DUE TO TECHNICAL ISSUES BEYOND OUR CONTROL.
   </p>
+  
   </div>
 </div>
 
@@ -352,23 +378,51 @@
 
 
   function generateCard(machine) {
-    return `
+    let price = machine.priceInDollars ? `<b>~ $${machine.priceInDollars}</b>` : "individual pricing"
+    let card = `
       <div class="card">
         <img style="object-fit: contain;" class="machine-image" src="${machine.modelImageUrl}" alt="${machine.model}">
         <img style="object-fit: contain;" class="manufacturer-image" src="${machine.manufacturerImageUrl}" alt="${machine.manufacturer}">
         <div class="card-content">
-          <h2 class="card-title">${machine.manufacturer} - ${machine.model}</h2>
-          <div class="card-body">
-            <p class="laser-info">Power: <b>${machine.powerInW}W</b></p>
-            <p class="laser-info">Laser Source Type: <b>${machine.laserType}</b></p>
-            <p class="laser-info">Operating Width: <b>${machine.operatingWidthInMm}mm</b></p>
-            <p class="laser-info">Operating Height: <b>${machine.operatingHeightInMm}mm</b></p>
-            <p class="laser-info" style="margin-bottom: 20px">Price: <b>$${machine.priceInDollars}</b></p>
-            <p><a href="${machine.furtherInformationUrl}" target="_blank" class="more-info-button">Further Information</a></p>
+          <div>
+            <h2 class="card-title">${machine.model}</h2>
+            <div class="card-body">
+              <p><a href="${machine.furtherInformationUrl}" target="_blank" class="more-info-button">Visit Page</a></p>
+            </div>
           </div>
+          `;
+
+          if (machine.powerInW && machine.laserType) {
+            card +=
+          `<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding-left: 10%; padding-right: 10%">
+            <img style="width: auto!important; object-fit: auto!important" width="20%" src="https://img.icons8.com/ios/50/laser-beam.png" alt="laser-beam"/>
+            <p class="laser-info" style="margin-bottom: 20px; margin-top: 20px; font-size: 24px; text-align: right">${machine.powerInW}W, ${machine.laserType}</p>
+          </div>`}
+          
+          if (machine.powerInW && machine.laserType) {
+            card +=
+          `<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding-left: 10%; padding-right: 10%">
+            <img style="width: auto!important; object-fit: auto!important; height: 50%!important" width="20%" src="https://img.icons8.com/metro/26/surface.png" alt="surface"/>
+            <p class="laser-info" style="margin-bottom: 20px; margin-top: 20px; font-size: 24px; text-align: right">${machine.operatingWidthInMm}mm x ${machine.operatingHeightInMm}mm`
+          if (machine.passthrough && machine.passthrough === 'TRUE') {
+            card += ` (passthrough)`
+          }
+          card +=  `</p></div>`
+        }
+          
+            card +=
+          `<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding-left: 10%; padding-right: 10%">
+            <img style="width: auto!important; object-fit: auto!important" width="20%" src="https://img.icons8.com/ios/50/banknotes.png" alt="banknotes"/>
+            <p class="laser-info" style="margin-bottom: 20px; margin-top: 20px; font-size: 24px; text-align: right">${price}</p>
+          </div>`
+
+          card +=
+         ` 
         </div>
       </div>
     `;
+
+    return card;
   }
 
   function sortMachines(machines) {
@@ -387,6 +441,10 @@ function displayMachines(machines) {
   const sortedMachines = sortMachines(machines); // Sortiere die Maschinen
   const container = document.getElementById('laserContainer');
   container.innerHTML = ''; // Bereinige den bestehenden Inhalt
+  if (sortedMachines.length !== 0) {
+    const containerLength = document.getElementById('containerLength');
+    containerLength.innerHTML = `<p>showing ${sortedMachines.length} machines</p>`;
+  }
   sortedMachines.forEach(machine => {
     container.innerHTML += generateCard(machine);
   });
