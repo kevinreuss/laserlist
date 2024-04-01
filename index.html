@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LaserList - Laser Machines Overview across Manufacturers</title>
+<title>LaserList - Your Browser for Laser Machines</title>
 <style>
   input[type="number"], select {
   border: 2px solid #333; /* Stärkere Border im Einklang mit dem Button-Stil */
@@ -325,7 +325,7 @@
 
 <section id="join">
   <div class="update-section">
-    <p style="text-align: center; font-size: 32px;"><b>Welcome to LaserList</b></p>
+    <p style="text-align: center; font-size: 32px;"><b>LaserList - Your Browser for Laser Machines</b></p>
       <p style="text-align: center; font-size: 20px;">We constantly add <b style="text-decoration: underline;">more machines</b> and <b style="text-decoration: underline;">more data</b>.<br><br><b style="text-decoration: underline;">Subscribe to keep up to date!</b></p>
       <a href="https://forms.gle/TQKfFbRU5YnbDPK7A" target="_blank" class="subscribe-button-header">Subscribe</a>
   </br>
@@ -541,7 +541,14 @@ function displayMachines(machines) {
     const sortBy = document.getElementById('sortSelect').value;
 
     if (sortBy === "byManufacturer") {
-      return machines.sort((a, b) => a.manufacturer.localeCompare(b.manufacturer));
+      return machines.sort((a, b) => {
+        if (a.manufacturer === "Epilog") {
+          return 1;
+        } else if (b.manufacturer === "Epilog") {
+          return -1;
+        }
+        return a.manufacturer.localeCompare(b.manufacturer)
+      })
     } else if (sortBy === "byPrice") {
       return machines.sort((a, b) => parseInt(a.priceInDollars) - parseInt(b.priceInDollars));
     } else if (sortBy === "byWorkingArea") {
