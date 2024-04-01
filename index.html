@@ -110,6 +110,17 @@
   border: none;
 }
 
+.sort-button {
+  background-color: #ffffff; /* Twitter Blau */
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
 
   .container {
     display: flex;
@@ -169,7 +180,7 @@
     padding: 10px;
   }
   .filter-section label {
-    font-size: 18px;
+    font-size: 16px;
   }
   .update-section {
     display: flex;
@@ -204,6 +215,20 @@
   height: 100vh;
 }
 
+.property-icon {
+  width: auto!important;
+  object-fit: auto!important;
+  height: 40px!important;
+}
+
+.property-entry {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
@@ -229,6 +254,16 @@
     <header>
   <div class="header-content">
   <!--<button id="openFilterSection" class="filter-button">Filter</button>-->
+  <!--<a id="openSortSection" class="sort-button">Sort</a>-->
+  <div class="filter-section">
+  <select id="sortSelect" style="width: auto">
+    <option value="byPrice">sort by Price</option>
+    <option value="byWorkingArea">sort by Working Area</option>
+    <option value="byPower">sort by Power</option>
+    <option value="byManufacturer">sort by Manufacturer</option>
+  </select>
+</div>
+
   <a href="mailto:kevreuss@gmail.com" target="_blank" class="feedback-button">Feedback?</a>
     <span>LaserList</span>
     <a href="https://forms.gle/TQKfFbRU5YnbDPK7A" target="_blank" class="subscribe-button-header">Subscribe</a>
@@ -267,6 +302,24 @@
 </div>
 <div class="filter-section">
   <button id="openFilterSection" class="filter-button" onclick="applyFilter()">Apply Filter</button>
+</div>
+</div>
+
+<div id="sortSection" class="filter">
+
+<!--
+<div class="filter-section">
+  <select id="sortSelect">
+    <option value="byManufacturer">sort by Manufacturer</option>
+    <option value="byPrice">sort by Price</option>
+    <option value="byWorkingArea">sort by Working Area</option>
+    <option value="byPower">sort by Power</option>
+  </select>
+</div>
+-->
+
+<div class="filter-section">
+  <button id="openSortSection" class="filter-button" onclick="applyFilter()">Apply Sorting</button>
 </div>
 </div>
 </header>
@@ -378,6 +431,12 @@
   });
 
 
+  document.getElementById('sortSelect').addEventListener('change', function() {
+    displayMachines(laserMachines);
+  });
+  
+
+
   function generateCard(machine) {
     let price = machine.priceInDollars ? `<b>~ $${machine.priceInDollars}</b>` : "individual pricing"
     let card = `
@@ -395,16 +454,16 @@
 
           if (machine.powerInW && machine.laserType) {
             card +=
-          `<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding-left: 10%; padding-right: 10%">
-            <img style="width: auto!important; object-fit: auto!important" width="20%" src="https://img.icons8.com/ios/50/laser-beam.png" alt="laser-beam"/>
-            <p class="laser-info" style="margin-bottom: 20px; margin-top: 20px; font-size: 24px; text-align: right">${machine.powerInW}W, ${machine.laserType}</p>
+          `<div class="property-entry">
+            <img class="property-icon"  src="https://img.icons8.com/ios/50/laser-beam.png" alt="laser-beam"/>
+            <p class="laser-info" style="margin-bottom: 20px; margin-top: 20px; font-size: 16px; text-align: right">${machine.powerInW}W, ${machine.laserType}</p>
           </div>`}
           
           if (machine.powerInW && machine.laserType) {
             card +=
-          `<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding-left: 10%; padding-right: 10%">
-            <img style="width: auto!important; object-fit: auto!important; height: 50px!important" width="20%" src="https://img.icons8.com/metro/26/surface.png" alt="surface"/>
-            <p class="laser-info" style="margin-bottom: 20px; margin-top: 20px; font-size: 24px; text-align: right">${machine.operatingWidthInMm}mm x ${machine.operatingHeightInMm}mm`
+          `<div class="property-entry">
+            <img class="property-icon"  src="https://img.icons8.com/metro/52/surface.png" alt="surface"/>
+            <p class="laser-info" style="margin-bottom: 20px; margin-top: 20px; font-size: 16px; text-align: right">${machine.operatingWidthInMm}mm x ${machine.operatingHeightInMm}mm`
           if (machine.passthrough && machine.passthrough === 'TRUE') {
             card += ` (passthrough)`
           }
@@ -412,9 +471,9 @@
         }
           
             card +=
-          `<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding-left: 10%; padding-right: 10%">
-            <img style="width: auto!important; object-fit: auto!important" width="20%" src="https://img.icons8.com/ios/50/banknotes.png" alt="banknotes"/>
-            <p class="laser-info" style="margin-bottom: 20px; margin-top: 20px; font-size: 24px; text-align: right">${price}</p>
+          `<div class="property-entry">
+            <img class="property-icon"  src="https://img.icons8.com/ios/50/banknotes.png" alt="banknotes"/>
+            <p class="laser-info" style="margin-bottom: 20px; margin-top: 20px; font-size: 16px; text-align: right">${price}</p>
           </div>`
 
           card +=
@@ -427,17 +486,6 @@
     return card;
   }
 
-  function sortMachines(machines) {
-    return machines;
-  return machines.sort((a, b) => {
-    if (a.manufacturer < b.manufacturer) return -1;
-    if (a.manufacturer > b.manufacturer) return 1;
-    // Wenn Hersteller gleich sind, nach Preis sortieren
-    const aPrice = parseInt(a.priceRange.split(' - ')[0].replace('€', '').trim());
-    const bPrice = parseInt(b.priceRange.split(' - ')[0].replace('€', '').trim());
-    return aPrice - bPrice;
-  });
-}
 
 function displayMachines(machines) {
   const sortedMachines = sortMachines(machines); // Sortiere die Maschinen
@@ -480,6 +528,22 @@ function displayMachines(machines) {
   document.addEventListener('DOMContentLoaded', () => {
     displayMachines(laserMachines);
   });
+
+
+  function sortMachines(machines) {
+    const sortBy = document.getElementById('sortSelect').value;
+
+    if (sortBy === "byManufacturer") {
+      return machines.sort((a, b) => a.manufacturer.localeCompare(b.manufacturer));
+    } else if (sortBy === "byPrice") {
+      return machines.sort((a, b) => parseInt(a.priceInDollars) - parseInt(b.priceInDollars));
+    } else if (sortBy === "byWorkingArea") {
+      return machines.sort((a, b) => (parseInt(a.operatingWidthInMm) * parseInt(a.operatingHeightInMm)) - (parseInt(b.operatingWidthInMm) * parseInt(b.operatingHeightInMm)));
+    } else { // if (sortBy === "byPower") {
+      return machines.sort((a, b) => parseInt(a.powerInW) - parseInt(b.powerInW));
+    }
+
+  }
 </script>
 
 </body>
